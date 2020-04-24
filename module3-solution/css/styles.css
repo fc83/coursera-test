@@ -1,0 +1,21 @@
+*{
+	box-sizing: border-box;
+}
+
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+li{ text-align: center; }
+
+.bg {
+	text-align: center;
+	background-color: #bbbbbb;
+	margin: 0 50px;
+	width: auto;
+}
