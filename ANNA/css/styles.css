@@ -4,29 +4,49 @@
   	margin-right: auto;
 }
 
+/*/////////////////////////////////////
+
+NAVBAR 
+
+////////////////////////////////////*/
+
 #ANNA{
 	font-weight: bold;
 	color: black;
-	font-family: bangers;
+	font-family: inherit;
+	font-size: 45px;
 }
 
-
-h1{
+#bar-list a {
 	text-align: center;
+	color: black;
+	font-family: inherit;
+	font-style: oblique;
+	font-weight: bold;
 }
 
-h2{
-	text-align: center;
+.navbar-default .navbar-toggle {
+  border-color: black;
 }
 
-li{ text-align: center; }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: #ffffff;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+	text-align: right;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: black;
+}
 
 .navbar, .navbar-defauls, .navbar-header{
 	background-color: #ffffff;
 	margin: 0;
 	border-radius: 0;
   	border: 0;
-}
+  	}
 
 .navbar-brand div img{
 	height: 50px;
@@ -34,3 +54,40 @@ li{ text-align: center; }
 	position: relative;
 	bottom: 15px;
 	}
+
+/*/////////////////////////////////////
+
+NAVBAR 
+
+////////////////////////////////////*/
+
+.bg-hone {
+	position: relative;
+
+}
+
+
+.logo-facebook {
+	width:50px;
+	height: 50px;
+	
+		}
+
+.logo-instagram {
+	width:50px;
+	height: 50px;
+	}
+
+
+/*/////////////////////////////////////
+
+FOOTER 
+
+////////////////////////////////////*/
+
+#footer-list {
+	color: black;
+	font-family: inherit;
+	font-style: oblique;
+	font-weight: bold;
+}
