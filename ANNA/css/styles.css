@@ -5,6 +5,10 @@
   	margin-right: auto;
 }
 
+.container{
+	max-width: 850px;
+}
+
 /*/////////////////////////////////////
 
 NAVBAR 
@@ -142,6 +146,6 @@ h2{
 	font-weight: bold;
 }
 
-#testo-disco{
+#testo-bold{
 	font-weight: bold;
 }
