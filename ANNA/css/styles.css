@@ -14,8 +14,8 @@ NAVBAR
 	font-weight: bold;
 	color: black;
 	font-family: inherit;
-	font-size: 45px;
-}
+	font-size: 40px;
+	}
 
 #bar-list a {
 	text-align: center;
@@ -45,7 +45,8 @@ NAVBAR
 	background-color: #ffffff;
 	margin: 0;
 	border-radius: 0;
-  	border: 0;
+	border-bottom-color: black;
+  	border: 0 0 1 0;
   	}
 
 .navbar-brand div img{
@@ -54,6 +55,10 @@ NAVBAR
 	position: relative;
 	bottom: 15px;
 	}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+border-color: black;
+}
 
 /*/////////////////////////////////////
 
@@ -64,12 +69,14 @@ NAVBAR
 .logo-facebook {
 	width:50px;
 	height: 50px;
+	margin: 0px 5px 0px 5px;
 	
 		}
 
 .logo-instagram {
 	width:50px;
 	height: 50px;
+	margin: 0px 5px 0px 5px;
 	}
 
 
@@ -85,6 +92,7 @@ FOOTER
 	font-style: oblique;
 	font-weight: bold;
 	background-color: #ffffff;
+	border-color: black;
 }
 
 hr{
