@@ -24,14 +24,12 @@ NAVBAR
 	color: black;
 	font-size: 20px;
 	font-family: spartan;
-	font-style: italic;
 	}
 
 #bar-list a {
 	text-align: center;
 	color: black;
 	font-family: inherit;
-	font-style: oblique;
 	font-weight: bold;
 }
 
@@ -102,7 +100,6 @@ FOOTER
 #footer-list {
 	color: black;
 	font-family: inherit;
-	font-style: oblique;
 	font-weight: bold;
 	background-color: #ffffff;
 	border-color: black;
@@ -122,4 +119,17 @@ BIO
 
 #bio-text{
 	font-weight: bold;
+}
+
+/*/////////////////////////////////////
+
+DISCOGRAFIA
+
+////////////////////////////////////*/
+
+#disco{
+	border: 1px
+	border-color: black;
+	height: 150px;
+	width: 150px;
 }
