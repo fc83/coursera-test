@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+	font-family: dancing script;
 	margin-left: auto;
   	margin-right: auto;
 }
@@ -13,7 +14,6 @@ NAVBAR
 #ANNA{
 	font-weight: bold;
 	color: black;
-	font-family: inherit;
 	font-size: 40px;
 	}
 
@@ -45,9 +45,8 @@ NAVBAR
 	background-color: #ffffff;
 	margin: 0;
 	border-radius: 0;
-	border-bottom-color: black;
-  	border: 0 0 1 0;
-  	}
+	border-color:transparent;
+	}
 
 .navbar-brand div img{
 	height: 50px;
@@ -58,6 +57,10 @@ NAVBAR
 
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
 border-color: black;
+}
+
+.nav {
+	float: right;
 }
 
 /*/////////////////////////////////////
