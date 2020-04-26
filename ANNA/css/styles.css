@@ -15,13 +15,18 @@ NAVBAR
 
 ////////////////////////////////////*/
 
-#ANNA{
+/*#ANNA{
 	font-weight: bold;
 	color: black;
 	font-size: 40px;
 	font-family: Dancing Script;
 	font-style: italic;
 	}
+*/
+
+.ANNA-logo{
+max-height: 30px;
+}
 
 #ANNA-{
 	font-weight: bold;
@@ -62,7 +67,7 @@ NAVBAR
 
 .navbar-brand div img{
 	height: 50px;
-	width: 50px;
+	width: auto;
 	position: relative;
 	bottom: 15px;
 	}
@@ -123,6 +128,7 @@ BIO
 
 #bio-text{
 	font-weight: bold;
+	text-align: left;
 }
 
 /*/////////////////////////////////////
