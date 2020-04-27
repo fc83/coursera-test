@@ -6,7 +6,7 @@
 }
 
 .container{
-	max-width: 640px;
+	max-width: 750px;
 }
 
 h3{
@@ -42,11 +42,11 @@ max-height: 30px;
 	}
 
 #bar-list a {
-	text-align: center;
+	text-align: right;
 	color: black;
 	font-family: inherit;
 	font-weight: bold;
-}
+	}
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
@@ -54,11 +54,6 @@ max-height: 30px;
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
 	background-color: #ffffff;
-}
-
-.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
-	text-align: right;
-
 }
 
 .navbar-default .navbar-toggle .icon-bar{
@@ -79,10 +74,6 @@ max-height: 30px;
 	bottom: 15px;
 	}
 
-.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
-border-color: black;
-}
-
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 border-color: black;	
 }
@@ -90,12 +81,6 @@ border-color: black;
 .nav {
 	float: right;
 }
-
-/*/////////////////////////////////////
-
-NAVBAR 
-
-////////////////////////////////////*/
 
 .logo-facebook {
 	width:50px;
