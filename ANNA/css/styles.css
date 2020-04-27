@@ -42,10 +42,21 @@ max-height: 30px;
 	}
 
 #bar-list a {
-	text-align: right;
 	color: black;
-	font-family: inherit;
 	font-weight: bold;
+	text-align: right;
+	font-weight: none;
+	}
+
+@media (max-width: 767px){
+		#bar-list a {
+		color: white;
+		background-color: black;
+		margin: 1px;
+		}
+	}
+header hr{
+	border-color: black;
 	}
 
 .navbar-default .navbar-toggle {
@@ -110,7 +121,7 @@ FOOTER
 	border-color: black;
 }
 
-hr{
+footer hr{
 	border-color: black;
 	margin-left: 20%;
 	margin-right: 20%;
