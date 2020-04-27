@@ -6,7 +6,13 @@
 }
 
 .container{
-	max-width: 850px;
+	max-width: 640px;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 14px;
+
 }
 
 /*/////////////////////////////////////
@@ -43,7 +49,7 @@ max-height: 30px;
 }
 
 .navbar-default .navbar-toggle {
-  border-color: black;
+  border-color: transparent;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
@@ -52,6 +58,7 @@ max-height: 30px;
 
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
 	text-align: right;
+
 }
 
 .navbar-default .navbar-toggle .icon-bar{
@@ -74,6 +81,10 @@ max-height: 30px;
 
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
 border-color: black;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+border-color: black;	
 }
 
 .nav {
@@ -118,6 +129,12 @@ hr{
 	border-color: black;
 	margin-left: 20%;
 	margin-right: 20%;
+}
+
+
+#footer-text{
+	text-decoration: none;
+	color: black;
 }
 
 /*/////////////////////////////////////
