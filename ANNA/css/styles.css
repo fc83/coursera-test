@@ -6,7 +6,7 @@
 }
 
 .container{
-	max-width: 750px;
+	max-width: 900px;
 }
 
 h3{
@@ -210,6 +210,27 @@ STORE
 	border-color: black;
 }
 
+/*/////////////////////////////////////
+
+GALLERIA
+
+////////////////////////////////////*/
+
+.FOTO-GALLERIA {
+	width: 300px;
+	height: auto;
+	margin: o;
+	
+}
+
+@media (max-width: 1200px){
+.FOTO-GALLERIA {
+	width: 450px;
+	height: auto;
+	margin: o;
+	
+}
+}
 
 /*/////////////////////////////////////
 
