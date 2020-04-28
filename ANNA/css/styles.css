@@ -217,23 +217,8 @@ GALLERIA
 ////////////////////////////////////*/
 
 .FOTO-GALLERIA {
-	width: 300px;
-	height: auto;
+	width: 100%;
 	}
-
-@media (max-width: 1200px){
-.FOTO-GALLERIA {
-	width: 450px;
-	height: auto;
-	}
-}
-
-@media (max-width: 768px){
-.FOTO-GALLERIA {
-	width: 250px;
-	height: auto;
-	}
-}
 
 /*/////////////////////////////////////
 
