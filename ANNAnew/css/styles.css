@@ -7,7 +7,6 @@
 
 .container{
 	max-width: 900px;
-	background-color: red;
 	}
 
 h3{
@@ -75,7 +74,7 @@ header hr{
 }
 
 .navbar, .navbar-defauls, .navbar-header{
-	background-color: transparent;
+	background-color: #ffffff;
 	margin: 0;
 	border-radius: 0;
 	border-color:transparent;
