@@ -142,7 +142,6 @@ BIO
 ////////////////////////////////////*/
 
 #bio-text{
-	font-weight: bold;
 	text-align: left;
 }
 
@@ -180,6 +179,27 @@ STAMPA
 #anno-stampa {
 	font-weight: bold;
 	color: black;
+}
+
+/*/////////////////////////////////////
+
+STORE
+
+////////////////////////////////////*/
+
+.FOTO-STORE{
+	height: 500px;
+	width: 500px;
+}
+
+.btn, .btn-default, .btn:hover, .btn-default:hover, .btn:active:focus, .btn-default:active:focus, .btn:visited, .btn-default:visited {
+	color: black;
+	border-color: black;
+	background-color: white;
+}
+
+.thumbnail{
+	border-color: black;
 }
 
 /*/////////////////////////////////////
