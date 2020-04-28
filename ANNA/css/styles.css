@@ -99,13 +99,21 @@ border-color: black;
 	width:50px;
 	height: 50px;
 	margin: 0px 5px 0px 5px;
-	
+	border-radius: 30px;
 		}
 
 .logo-instagram {
 	width:50px;
 	height: 50px;
 	margin: 0px 5px 0px 5px;
+	border-radius: 10px;
+	}
+
+.logo-spotify {
+	width:50px;
+	height: 50px;
+	margin: 0px 5px 0px 5px;
+	border-radius: 30px;
 	}
 
 
@@ -202,14 +210,6 @@ STORE
 	border-color: black;
 }
 
-@media (min-width: 768px) {
-.carousel-multi-item-2 .col-md-3 {
-float: left;
-width: 25%;
-max-width: 100%; } }
-
-.carousel-multi-item-2 .card img {
-border-radius: 2px; }
 
 /*/////////////////////////////////////
 
