@@ -68,8 +68,8 @@ font-size: 30px;
 		#socials-navbar{
 		position: relative;
 		width: 50px;
-		left:30px;
-		top: 100px;
+		left:25;
+		top: 10px;
 		}
 
 		section.socials-position{
@@ -159,8 +159,8 @@ HOME PAGE
 .socials-position{
 	position: relative;
 	width: 50px;
-	left: 35px;
-	top: 100px;
+	left: 30
+	top: 10px;
 }
 
 .logo-facebook, .logo-facebook>div{
