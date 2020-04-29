@@ -2,7 +2,6 @@
 	box-sizing: border-box;
 	color: white;
 	font-family: spartan;
-	background-color: transparent;
 	
 }
 
@@ -13,7 +12,7 @@
 	background-size: cover;
 }*/ 
 
-#page {
+#page-home{
 width: 100%; height: 100%; top: 0; left: 0;
 background: url("../images/bg-bio.jpg") no-repeat center top; position: fixed; z-index: -1;
 -webkit-background-size: cover;
@@ -22,6 +21,14 @@ background: url("../images/bg-bio.jpg") no-repeat center top; position: fixed; z
 background-size: cover;
 }
 
+#page {
+width: 100%; height: 100%; top: 0; left: 0;
+background: url("../images/bg-page.png") no-repeat center top; position: absolute; z-index: -1;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
 
 h3{
 	font-weight: bold;
@@ -128,7 +135,7 @@ FOOTER
 ////////////////////////////////////*/
 
 
-.panel-footer{
+.panel-footer-home{
 	width: top: 0; left: 0;
 	background-color: transparent; /*bianco #ffffff*/
 	border-color: transparent;
@@ -142,6 +149,17 @@ FOOTER
 	bottom: 0;
 	}
 
+.panel-footer-page{
+	width: top: 0; left: 0;
+	background-color: black; /*bianco #ffffff*/
+	border-color: white;
+	font-weight: bold;
+	font-style: oblique;
+	font-size: 8px;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+	}
 
 footer hr{
 	border-color: white;
@@ -195,6 +213,14 @@ BIO
 
 #bio-text{
 	text-align: left;
+}
+
+.bio-img{
+	position: relative;
+	width: 100%;
+	height: auto;
+	left: 0;
+		
 }
 
 /*/////////////////////////////////////
