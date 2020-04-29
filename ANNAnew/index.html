@@ -16,13 +16,15 @@
       <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
+        <![endif]-->
+
   </head>
 
-  <body>
+  <body class="container">
 
-    <div class="container">
+    <div  id="page">
 
+    
       <!--/////////////////////////////////////
       NAVBAR 
       ////////////////////////////////////-->
@@ -33,9 +35,7 @@
           <div class="navbar-header">                    
             
             <a class="navbar-brand" href="index.html" class="logo-navbar">
-              <div class="logo-navbar">
-                <img src="images/logo-navbar.png">
-                <img src="images/logo-ANNA.jpg" class="ANNA-logo">
+              <div class="logo-ANNA"> A N N A
               </div>
             </a>
                             
@@ -52,12 +52,39 @@
               <li><a href="musica.html">Musica<span class="sr-only" id="bar-list">(current)</span></a></li>
               <li><a href="biografia.html">Biografia<span class="sr-only">(current)</span></a></li>
               <hr class="visible-xs">
+              <hr class="visible-xs">
               <li><a href="stampa.html">Stampa<span class="sr-only">(current)</span></a></li>
               <li><a href="store.html">Store<span class="sr-only">(current)</span></a></li>
-              <li><a href="galleria.html">Galleria<span class="sr-only">(current)</span></a></li>
               <hr class="visible-xs">
+              <li><a href="galleria.html">Galleria<span class="sr-only">(current)</span></a></li>
               <li><a href="https://www.facebook.com/AnnaGiustiOfficial/" target="_blank" title="FacebookOfficial">News<span class="sr-only">(current)</span></a></li>
             </ul>
+          
+            <section id="socials-navbar" class="visible-xs">
+
+              <a href="https://www.facebook.com/AnnaGiustiOfficial/" target="_blank" title="Facebook">
+              <div>
+              <img src="images/logo-facebook.png" class="logo-facebook"> 
+              </div>
+              </a> 
+
+              <br>
+             
+              <a href="https://www.instagram.com/giustianna/?hl=it" target="_blank" title="Instagram">
+              <div>
+              <img src="images/logo-instagram.png" class="logo-instagram" >
+              </div>
+              </a>
+
+              <br> 
+
+              <a href="https://open.spotify.com/artist/1TDTl3cXTwa2799sM4wBVR?si=tsOKjfuKTTmqedRxLuADtA" target="_blank" title="Spotify">
+              <div>
+              <img src="images/logo-spotify.png" class="logo-spotify" >
+              </div>
+              </a> 
+            </section>
+
           </div><!-- /.navbar-collapse -->
         
         </nav>
@@ -68,36 +95,39 @@
           PAGE
           ////////////////////////////////////-->
 
-        <div class="text-center">
-       
-        <img src="images/bg-home-side.png" class="img-responsive" id="logo-bg-home">  
-           
+        <div  class="page">
+                      
           <br>
 
-          <section id="news">
+          <section class="socials-position socials-sr">
+
             <a href="https://www.facebook.com/AnnaGiustiOfficial/" target="_blank" title="Facebook">
-            <span>
-            <img src="images/logo-facebook.png" class="logo-facebook"> 
-            </span>
-            </a> 
-           
-            <a href="https://www.instagram.com/giustianna/?hl=it" target="_blank" title="Instagram">
-            <span>
-            <img src="images/logo-instagram.png" class="logo-instagram" >
-            </span>
+            <div>
+            <img src="images/logo-facebook.png" class="logo-facebook logo-facebook-sr"> 
+            </div>
             </a> 
 
+            <br>
+           
+            <a href="https://www.instagram.com/giustianna/?hl=it" target="_blank" title="Instagram">
+            <div>
+            <img src="images/logo-instagram.png" class="logo-instagram logo-instagram-sr">
+            </div>
+            </a>
+
+            <br> 
+
             <a href="https://open.spotify.com/artist/1TDTl3cXTwa2799sM4wBVR?si=tsOKjfuKTTmqedRxLuADtA" target="_blank" title="Spotify">
-            <span>
-            <img src="images/logo-spotify.png" class="logo-spotify" >
-            </span>
+            <div>
+            <img src="images/logo-spotify.png" class="logo-spotify logo-spotify-sr">
+            </div>
             </a> 
 
           </section>
 
         </div>
       
-        <br>
+        
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -108,32 +138,31 @@
         FOOTER
         ////////////////////////////////////-->
 
+    </div> 
+
+      <div class="footer-position">
         <footer class="panel-footer" id="footer-list">
           <div class="text-center" class="row">
             <section class="col-sm-6">
               <br class="visible-xs">
-              <a href="contatti.html"><span id="footer-text">CONTATTI</span></a>
+              <a href="contatti.html"><span>CONTATTI</span></a>
               <br>
               <hr class="visible-xs">
             </section>
 
             <section class="col-sm-6">
-              <a href="credits.html"><span id="footer-text"><span>CREDITS</span></span></a>
+              <a href="credits.html"><span>CREDITS</span></a>
               <br>
               <hr class="visible-xs">
             </section>
           </div>
-
-          <div>&nbsp</div>
-
-          <div class="text-center">2020 &copy; Copyright. ALL RIGHT RESERVED SCORZA LABEL</div>
-
+          
+          <div class="text-center">2020 &copy; Copyright.
+          <p> ALL RIGHT RESERVED SCORZA LABEL </p>
+          </div>
         </footer>
-
       </div>
     
-    </div>
-
   </body>
 
 </html>
