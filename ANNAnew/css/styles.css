@@ -1,7 +1,7 @@
 *{
 	box-sizing: border-box;
 	color: white;
-	font-family: spartan;
+	
 	
 }
 
@@ -36,6 +36,9 @@ background-size: cover;
 	#page {
 	background-color: black;
 	}
+	.container{
+		padding: 0;
+	}
 }
 
 h3{
@@ -49,16 +52,6 @@ h3{
 NAVBAR 
 
 ////////////////////////////////////*/
-
-/*#ANNA{
-	font-weight: bold;
-	color: black;
-	font-size: 40px;
-	font-family: Dancing Script;
-	font-style: italic;
-	}
-*/
-
 .logo-ANNA{
 color: white;
 font-family: arial2;
@@ -134,9 +127,67 @@ border-color: white;
 	float: right;
 }
 
+/*/////////////////////////////////////
 
-/*///////
-//////////////////////////////
+PIANOFORTE
+
+////////////////////////////////////*/
+
+
+#tasto-nero-corto a {
+	position: relative;
+	float: right;
+	clear: right;
+	background-color: black;
+	color: white;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	}
+
+#tasto-bianco-corto1{
+	position: relative;
+	float: right;
+
+	background-color: white;
+	color: white;
+	width: 100px;
+	margin-bottom: 1px;
+	}
+
+#tasto-bianco-lungo1{
+	color: white;
+	position: relative;
+	float: right;
+	background-color: white;
+	width: 200px;
+	clear: right;
+	margin-top: 5px;
+	}
+
+#tasto-bianco-corto{
+	position: relative;
+	float: right;
+
+	background-color: white;
+	color: white;
+	width: 100px;
+	
+	}
+
+#tasto-bianco-lungo{
+	color: white;
+	position: relative;
+	float: right;
+	background-color: white;
+	width: 200px;
+	clear: right;
+	
+	}
+
+
+
+/*/////////////////////////////////////
 
 FOOTER 
 
@@ -238,8 +289,8 @@ BIO
 
 #bio-text-BAUMA{
 	position:relative;
-	left: 15%;
-	width: 70%;
+	left: 5%;
+	width: 90%;
 	}
 
 .bio-img{
