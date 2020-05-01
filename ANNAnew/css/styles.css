@@ -175,6 +175,16 @@ PIANOFORTE
 	height: 15px;
 	clear: right;
 	margin-top: 5px;
+	}
+
+#tasto-bianco-lungo1:hover{
+	position: relative;
+	float: right;
+	background-color: white;
+	width: 175px;
+	height: 15px;
+	clear: right;
+	margin-top: 5px;
 	font-size: 8px;
 	color: black;
 	text-align: center;
@@ -182,12 +192,6 @@ PIANOFORTE
 	line-height: 15px; 
 	font-weight: bold;
 	}
-
-#logo-soundable-navbar{
-	width: 50px;
-	position: absolute;
-	left: 12.5px;
-}
 
 #tasto-bianco-corto{
 	position: relative;
@@ -200,9 +204,23 @@ PIANOFORTE
 	text-align: center;
 	vertical-align: middle;
 	line-height: 25px; 
-	font-weight: bold;
-	font-size: 8px;
 	}
+
+#logo-soundable-navbar{
+	width: 50px;
+	position: absolute;
+	left: 12.5px;
+	opacity: 0;
+}
+
+#logo-soundable-navbar:hover{
+	width: 50px;
+	position: absolute;
+	left: 12.5px;
+	opacity: 1;
+}
+
+
 
 #tasto-bianco-lungo{
 	color: black;
