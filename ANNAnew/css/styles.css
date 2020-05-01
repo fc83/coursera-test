@@ -219,7 +219,14 @@ PIANOFORTE
 	font-weight: bold;
 	}
 
-#logo-maps{
+#logo-disco-navbar{
+	height: 40px;
+	position: absolute;
+	left: 12.5px;
+	top: -22.5px;
+}
+
+#logo-maps-navbar{
 	width: 30px;
 	position: absolute;
 	left: 25px;
