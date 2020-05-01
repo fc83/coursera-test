@@ -8,11 +8,11 @@
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -64px; 
+    margin: 0 auto -44px; 
 }
 
 .panel-footer-page, #push {
-    height: 64px; 
+    height: 44px; 
 }
 
 
@@ -156,7 +156,15 @@ PIANOFORTE
 	width: 75px;
 	height: 25px;
 	margin-bottom: 1px;
+	color: black;
 	}
+
+#logo-rockit-navbar{
+	width: 50px;
+	position: absolute;
+	left: 12.5px;
+	top: 5px;
+}
 
 #tasto-bianco-lungo1{
 	color: white;
@@ -177,10 +185,7 @@ PIANOFORTE
 
 #logo-soundable-navbar{
 	width: 50px;
-	height:50px;
-	border-radius: 100px;
 	position: absolute;
-	top:10%;
 	left: 12.5px;
 }
 
@@ -194,13 +199,18 @@ PIANOFORTE
 	}
 
 #tasto-bianco-lungo{
-	color: white;
+	color: black;
 	position: relative;
 	float: right;
 	background-color: white;
 	width: 175px;
 	height: 15px;	
 	clear: right;
+	font-size: 8px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 15px; 
+	font-weight: bold;
 	
 	}
 
@@ -275,7 +285,7 @@ HOME PAGE
 	width: 25px;
 	height: 25px;
 	margin: 0px 5px 0px 5px;
-	border-radius: 10px;
+	border-radius: 5px;
 	}
 
 .logo-spotify {
@@ -309,7 +319,7 @@ BIO
 
 	.panel-footer-page{
 	width: 100%; left: 0;
-	background-color: white; /*bianco #ffffff*/
+	background-color: black; /*bianco #ffffff*/
 	border-color: black;
 	font-weight: bold;
 	font-style: oblique;
