@@ -4,12 +4,17 @@
 	
 }
 
+.container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -64px; 
+}
 
-/*#page{
-	width: 100%; height: 100%; top: 0; left: 0;
-	background: url("../images/bg-bio.jpg") no-repeat center top;
-	background-size: cover;
-}*/ 
+.panel-footer-page, #push {
+    height: 64px; 
+}
+
 
 #page-home{
 width: 100%; height: 100%; top: 0; left: 0;
@@ -22,7 +27,7 @@ background-size: cover;
 
 @media (min-width: 767px){
 	#page {
-	width: 100%; height: none; top: 0; left: 0;
+	width: 100%; height: 100%; top: 0; left: 0;
 	background: url("../images/bg-bio3.jpg") no-repeat center top; position: absolute; z-index: -1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -35,9 +40,7 @@ background-size: cover;
 	#page {
 	background-color: black;
 	}
-	.container{
-		padding: 0;
-	}
+
 }
 
 h3{
@@ -164,7 +167,22 @@ PIANOFORTE
 	height: 15px;
 	clear: right;
 	margin-top: 5px;
+	font-size: 8px;
+	color: black;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 15px; 
+	font-weight: bold;
 	}
+
+#logo-soundable-navbar{
+	width: 50px;
+	height:50px;
+	border-radius: 100px;
+	position: absolute;
+	top:10%;
+	left: 12.5px;
+}
 
 #tasto-bianco-corto{
 	position: relative;
@@ -196,21 +214,22 @@ FOOTER
 
 
 .panel-footer-home{
-	width: top: 0; left: 0;
+	width: 100%; bottom: 0; left: 0;
 	background-color: transparent; /*bianco #ffffff*/
 	border-color: transparent;
 	font-weight: bold;
 	font-style: oblique;
 	font-size: 8px;
-	text-decoration: none;
 	text-align: center;
 	position: fixed;
-	width: 100%;
-	bottom: 0;
 	}
 
+.panel-footer-home a:hover{
+	text-decoration: none;
+}
+
 .panel-footer-page{
-	width: top: 0; left: 0;
+	width: 100%; left: 0;
 	background-color: black; /*bianco #ffffff*/
 	border-color: black;
 	font-weight: bold;
@@ -218,9 +237,9 @@ FOOTER
 	font-size: 8px;
 	text-decoration: none;
 	text-align: center;
-	position: none;
-	width: 100%;
+	position: absolute;
 	bottom: 0;
+	left: 0;
 	}
 
 footer hr{
@@ -272,21 +291,37 @@ BIO
 
 ////////////////////////////////////*/
 
-@media (max-width: 767px){
-		#bio-text{
-	text-align: left;
-	padding: 10px;
-	}
-		}
 
 @media (min-width: 767px){
-#bio-text{
+	#bio-text{
 	position:relative;
 	left: 60%;
 	width: 35%;
 	text-align: left;
 	}
 }
+
+@media (max-width: 767px){
+	#bio-text{
+	text-align: left;
+	padding: 10px;
+	}
+
+	.panel-footer-page{
+	width: 100%; left: 0;
+	background-color: white; /*bianco #ffffff*/
+	border-color: black;
+	font-weight: bold;
+	font-style: oblique;
+	font-size: 8px;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+	top: 100% auto -64px;
+	}
+
+}
+
 
 #bio-text-BAUMA{
 	position:relative;
