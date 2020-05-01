@@ -132,7 +132,13 @@ height: 300px;
 PIANOFORTE
 
 ////////////////////////////////////*/
-
+#PLAYTHEPIANO{
+writing-mode: vertical-rl;
+position: absolute;
+height: 200px;
+right: 200px;
+top: 75px;
+}
 
 #tasto-nero-corto a {
 	position: relative;
@@ -164,6 +170,15 @@ PIANOFORTE
 	position: absolute;
 	left: 12.5px;
 	top: 5px;
+	opacity: 0;
+}
+
+#logo-rockit-navbar:hover{
+	width: 50px;
+	position: absolute;
+	left: 12.5px;
+	top: 5px;
+	opacity: 1;
 }
 
 #tasto-bianco-lungo1{
@@ -223,6 +238,21 @@ PIANOFORTE
 
 
 #tasto-bianco-lungo{
+	color: white;
+	position: relative;
+	float: right;
+	background-color: white;
+	width: 175px;
+	height: 15px;	
+	clear: right;
+	font-size: 8px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 15px; 
+	font-weight: bold;
+	}
+
+	#tasto-bianco-lungo:hover{
 	color: black;
 	position: relative;
 	float: right;
@@ -242,6 +272,15 @@ PIANOFORTE
 	position: absolute;
 	left: 12.5px;
 	top: -22.5px;
+	opacity: 0;
+}
+
+#logo-disco-navbar:hover{
+	height: 40px;
+	position: absolute;
+	left: 12.5px;
+	top: -22.5px;
+	opacity: 1;
 }
 
 #logo-maps-navbar{
@@ -249,6 +288,15 @@ PIANOFORTE
 	position: absolute;
 	left: 25px;
 	top:5px;
+	opacity: 0;
+}
+
+#logo-maps-navbar:hover{
+	width: 30px;
+	position: absolute;
+	left: 25px;
+	top:5px;
+	opacity: 1;
 }
 
 /*/////////////////////////////////////
