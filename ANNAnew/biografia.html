@@ -6,7 +6,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-      <title>ANNA home page NEW LAYOT</title>
+      <title>ANNA biografia page</title>
       <!-- Bootstrap -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="css/styles.css">
@@ -20,9 +20,9 @@
 
   </head>
 
-  <body> 
+  <body id="page-bio">
 
-    <div class="container containerPAGE" id="page">
+    <div class="container"> 
 
       <header>  
         
@@ -49,29 +49,64 @@
               <li><a href="stampa.html">Stampa</a></li>
               <li><a href="store.html">Store</a></li>
               <li><a href="galleria.html">Galleria</a></li>
-              <li><a href="https://www.facebook.com/AnnaGiustiOfficial/" target="_blank" title="FacebookOfficial">News</a></li>
+              <li><a href="news.html" target="_blank" title="FacebookOfficial">News</a></li>
             </ul>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-              <div class="visible-xs" id="tasto-bianco-lungo1">(NONE)</div> 
-              <div class="visible-xs" id="tasto-nero-corto"><a href="musica.html">Musica</a></div>
-              <div class="visible-xs" id="tasto-bianco-corto1">(NONE)</div>
-              <div class="visible-xs" id="tasto-nero-corto"><a href="biografia.html">Biografia</a></div>
-              <div class="visible-xs" id="tasto-bianco-corto">(NONE)</div>
-              <div class="visible-xs" id="tasto-bianco-lungo">(NONE)</div>            
-               <div class="visible-xs" id="tasto-nero-corto"><a href="stampa.html">Stampa</a></div>
-              <div class="visible-xs" id="tasto-bianco-corto1">(NONE)</div>
-              <div class="visible-xs" id="tasto-nero-corto"><a href="store.html">Store</a></div>
-              <div class="visible-xs" id="tasto-bianco-corto">(NONE)</div>
-              <div class="visible-xs" id="tasto-bianco-lungo">(NONE)</div>  
-              <div class="visible-xs" id="tasto-nero-corto"><a href="galleria.html">Galleria</a></div>
-              <div class="visible-xs" id="tasto-bianco-corto1">(NONE)</div>
-               <div class="visible-xs" id="tasto-nero-corto"><a href="https://www.facebook.com/AnnaGiustiOfficial/" target="_blank" title="FacebookOfficial">News</a></div>
-              <div class="visible-xs" id="tasto-bianco-corto">(NONE)</div>
-              <div class="visible-xs" id="tasto-bianco-lungo">(NONE)</div> 
+            <div id="PLAYTHEPIANO" class="visible-xs">SUONA IL PIANOFORTE</div>
 
-              <br>
+            <a href="#" onmousedown="FA.play()">
+            <div class="visible-xs" id="tasto-bianco-lungo1"></div>
+            </a>
+
+            <div class="visible-xs" id="tasto-nero-corto"><a href="musica.html">Musica</a></div>
+
+            <a href="#" onmousedown="FA.play()">
+            <div class="visible-xs" id="tasto-bianco-corto1"></div>
+            </a>
+
+            <div class="visible-xs" id="tasto-nero-corto"><a href="biografia.html">Biografia</a></div>
+
+            <a href="#" onmousedown="JINGLE.play()">
+            <div class="visible-xs" id="tasto-bianco-corto"></div>
+            </a>
+
+            <a href="#" onmousedown="JINGLE.play()">
+            <div class="visible-xs" id="tasto-bianco-lungo"></div>            
+            </a>
+
+            <div class="visible-xs" id="tasto-nero-corto"><a href="stampa.html">Stampa</a></div>
+            
+            <a href="#" onmousedown="JINGLE.play()">
+            <div class="visible-xs" id="tasto-bianco-corto1"></div>
+            </a>
+              
+            <div class="visible-xs" id="tasto-nero-corto"><a href="store.html">Store</a></div>
+                    
+            <a href="#" onmousedown="MELODY.play()">
+            <div class="visible-xs" id="tasto-bianco-corto"></div>
+            </a>
+
+            <a href="#" onmousedown="MELODY.play()">
+            <div class="visible-xs" id="tasto-bianco-lungo"></div>  
+            </a>    
+
+            <div class="visible-xs" id="tasto-nero-corto"><a href="galleria.html">Galleria</a></div>
+            
+            <a href="#" onmousedown="MELODY.play()">
+            <div class="visible-xs" id="tasto-bianco-corto1"></div>
+            </a>
+
+            <div class="visible-xs" id="tasto-nero-corto"><a href="https://www.facebook.com/AnnaGiustiOfficial/" target="_blank" title="FacebookOfficial">News</a></div>
+             
+            <a href="#" onmousedown="SI.play()">
+            <div class="visible-xs" id="tasto-bianco-corto"></div>
+            </a>
+
+            <a href="#" onmousedown="SI.play()">
+            <div class="visible-xs" id="tasto-bianco-lungo"></div> 
+            </a>
           
           
             <section id="socials-navbar" class="visible-xs">
@@ -104,72 +139,89 @@
 
      
 
-    <!--/////////////////////////////////////
-    PAGE
-    ////////////////////////////////////-->
+      <!--/////////////////////////////////////
+      PAGE
+      ////////////////////////////////////-->
 
-    <div class="page text-center">
+      <div class="text-center">
+        
+        <h2> Biografia </h2>
+
+        <div id="bio-text-BAUMA">
+        Penso che la cosa più eccitante, creativa e fiduciosa nell'azione umana sia precisamente il disaccordo, lo scontro tra diverse opinioni, tra diverse visioni del giusto, dell'ingiusto, e così via. Nell'idea dell'armonia e del consenso universale, c'è un odore davvero spiacevole di tendenze totalitarie, rendere tutti uniformi, rendere tutti uguali.
+        <P></P>
+        <p>Zygmunt Bauma</p>
+        </div>
+
+        <br>
+
+        <div >
+        <img src="images/bg-bio2.jpg" class="img-responsive visible-xs bio-img">
+        </div>
+
+        <br>
+
+        <div id="bio-text">
+        Anna, all’anagrafe Anna Giusti, è una cantautrice nata a Nola (NA).
+        La necessità di esprimere la sua creatività non è arrivata di recente, il suo primo approccio alla musica avviene attraverso lo studio del pianoforte e si consolida nel tempo con i suoi studi universitari legati alla sociologia della musica e alla comunicazione.
+        Intanto inizia a raccontare il suo mondo scrivendo i primi testi e matura varie esperienze musicali.
+        <p></p>
+        Nel 2018 dà il via al suo progetto musicale e intraprende questo percorso con il produttore e musicista Peppe Pleiam La Strada. Anna inaugura la nuova fase creativa pubblicando due singoli “Polvere” e “Di domenica”.
+        <p></p>
+        La cantautrice presenta il suo progetto esibendosi in duo con Pleiam in un live dalle sonorità elettro pop.
+        Anna ha suonato in apertura a Marcello Coleman (Periferica Konnection SA – 9 maggio 2019); Postino (Farcisentire Festival NA – 6 luglio 2019); Margherita Vicario e Nada (Eco Summer Festival CE – 27 luglio 2019), al Bloom Recording Studios (Guidonia RM, 14 dicembre 2019) per le semifinali del “Premio Fabrizio De Andrè”; in apertura a Scott Siskind e Aaron (Gate 36 NA – 27 febbraio 2020).
+        Inoltre ha presentato il suo progetto live in vari locali (22/05/2019 Leet it beer - Roma; 14/11/2019 Sound Music Club – Frattamaggiore; 27/12/2019 Officina 72 - Agropoli; 7/02/2020 10HP “Newpolitana” – Marigliano; 15/02/2020 Club 33 Giri - S. Maria Capua Vetere).
+        <p></p>
+        L’8 settembre 2019 viene pubblicato “Post it E p” il disco di esordio di Anna disponibile su tutte le principali piat taforme digitali e in formato fisico.
+        Il disco è stato presentato nella rubrica del TGR Campania “Music&thecity” negli Studi Rai di Napoli e in alcune radio: Radio Punto Zero Nola (NA), Radio Antenna Uno Somma Vesuviana (NA), Urban The Best
+        Torino. Inoltre è stato recensito da “Rockit” ed è stato apprezzato da varie testate e blog della musica (Le Rane, Pink Noises, Fix On Magazine, Le Indie Music, Exclusive Magazine, Le Siepi, Traks, Blog della musica, Tutti giù parterre, e altre).
+        <p></p>
+        A gennaio del 2020 viene realizzato il video di “OK”, singolo estratto da Post-it Ep.
+        Il brano disegna un mondo in cui lo schermo è il filtro attraverso il quale si vive, il rifugio di una generazione dall’identità labile e frammentata che ha paura delle relazioni dirette. Il brano vuole essere un invito ad aprirsi al confronto, al dialogo, agli sguardi, agli abbracci, a fare le proprie scelte con coraggio rimanendo fedeli a sé stessi.
+        </div>
+           
+        <br>
+
+      </div> <!--PAGE-->
+
       
-      <h2> Biografia </h2>
+      <div id="push"></div>
 
-      <div id="bio-text-BAUMA">
-      Penso che la cosa più eccitante, creativa e fiduciosa nell'azione umana sia precisamente il disaccordo, lo scontro tra diverse opinioni, tra diverse visioni del giusto, dell'ingiusto, e così via. Nell'idea dell'armonia e del consenso universale, c'è un odore davvero spiacevole di tendenze totalitarie, rendere tutti uniformi, rendere tutti uguali.
-      <P></P>
-      <p>Zygmunt Bauma</p>
+    </div> <!--FINE CONTENTAINER-->
+
+
+
+    <footer class="text-center" class="panel-footer-page">
+      
+      <div class="row">
+        <section class="col-xs-6">
+         <a href="contatti.html"><span>CONTATTI</span></a>
+        </section>
+
+        <section class="col-xs-6">
+          <a href="credits.html"><span>CREDITS</span></a>
+        </section>
       </div>
 
-      <br>
+      <div>2020 &copy; Copyright</div>
 
-      <div >
-      <img src="images/bg-bio2.jpg" class="img-responsive visible-xs bio-img">
-      </div>
+      <div>ALL RIGHT RESERVED SCORZA LABEL</div>  
 
-      <br>
+    </footer>
+      
+    <script>
+    var SI = new Audio ();
+    SI.src = "musica/SI.wav";
 
-      <div id="bio-text">
-      Anna, all’anagrafe Anna Giusti, è una cantautrice nata a Nola (NA).
-      La necessità di esprimere la sua creatività non è arrivata di recente, il suo primo approccio alla musica avviene attraverso lo studio del pianoforte e si consolida nel tempo con i suoi studi universitari legati alla sociologia della musica e alla comunicazione.
-      Intanto inizia a raccontare il suo mondo scrivendo i primi testi e matura varie esperienze musicali.
-      <p></p>
-      Nel 2018 dà il via al suo progetto musicale e intraprende questo percorso con il produttore e musicista Peppe Pleiam La Strada. Anna inaugura la nuova fase creativa pubblicando due singoli “Polvere” e “Di domenica”.
-      <p></p>
-      La cantautrice presenta il suo progetto esibendosi in duo con Pleiam in un live dalle sonorità elettro pop.
-      Anna ha suonato in apertura a Marcello Coleman (Periferica Konnection SA – 9 maggio 2019); Postino (Farcisentire Festival NA – 6 luglio 2019); Margherita Vicario e Nada (Eco Summer Festival CE – 27 luglio 2019), al Bloom Recording Studios (Guidonia RM, 14 dicembre 2019) per le semifinali del “Premio Fabrizio De Andrè”; in apertura a Scott Siskind e Aaron (Gate 36 NA – 27 febbraio 2020).
-      Inoltre ha presentato il suo progetto live in vari locali (22/05/2019 Leet it beer - Roma; 14/11/2019 Sound Music Club – Frattamaggiore; 27/12/2019 Officina 72 - Agropoli; 7/02/2020 10HP “Newpolitana” – Marigliano; 15/02/2020 Club 33 Giri - S. Maria Capua Vetere).
-      <p></p>
-      L’8 settembre 2019 viene pubblicato “Post it E p” il disco di esordio di Anna disponibile su tutte le principali piat taforme digitali e in formato fisico.
-      Il disco è stato presentato nella rubrica del TGR Campania “Music&thecity” negli Studi Rai di Napoli e in alcune radio: Radio Punto Zero Nola (NA), Radio Antenna Uno Somma Vesuviana (NA), Urban The Best
-      Torino. Inoltre è stato recensito da “Rockit” ed è stato apprezzato da varie testate e blog della musica (Le Rane, Pink Noises, Fix On Magazine, Le Indie Music, Exclusive Magazine, Le Siepi, Traks, Blog della musica, Tutti giù parterre, e altre).
-      <p></p>
-      A gennaio del 2020 viene realizzato il video di “OK”, singolo estratto da Post-it Ep.
-      Il brano disegna un mondo in cui lo schermo è il filtro attraverso il quale si vive, il rifugio di una generazione dall’identità labile e frammentata che ha paura delle relazioni dirette. Il brano vuole essere un invito ad aprirsi al confronto, al dialogo, agli sguardi, agli abbracci, a fare le proprie scelte con coraggio rimanendo fedeli a sé stessi.
-      </div>
-         
-      <br>
+    var JINGLE = new Audio ();
+    JINGLE.src = "musica/JINGLE.wav";
 
-    </div> <!--FINE DIV CONTAINER-->
+    var MELODY = new Audio ();
+    MELODY.src = "musica/MELODY.wav";
 
-    <div id="push"></div>
-
-
-    <!-- INIZIO DIV FOOTER -->
-    <div class="text-center panel-footer-page">
-        <footer>
-         <div class="row">
-            <section class="col-xs-6">
-             <a href="contatti.html"><span>CONTATTI</span></a>
-            </section>
-
-            <section class="col-xs-6">
-              <a href="credits.html"><span>CREDITS</span></a>
-            </section>
-          </div>
-          <div>2020 &copy; Copyright</div>
-          <div>ALL RIGHT RESERVED SCORZA LABEL</div>         
-        </footer>
-    </div> <!--FINE DIV FOOTER-->
-
-    
+    var FA = new Audio ();
+    FA.src = "musica/FA.m4a";
+    </script>   
    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

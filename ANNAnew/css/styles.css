@@ -1,32 +1,44 @@
 *{
 	box-sizing: border-box;
 	color: white;
-	
 }
 
+html, body { height: 100%; margin: 0; padding: 0; }
+
 .container {
+    width: 100%;
     min-height: 100%;
     height: auto !important;
     height: 100%;
     margin: 0 auto -44px; /*va modificato in 3 parti*/
+    padding: 0;
 }
 
 .panel-footer-page, #push {
-    height: 44px; /*va modificato in 3 parti*/
+    min-height: 44px; /*va modificato in 3 parti*/
 }
 
 
 #page-home{
 width: 100%; height: 100%; top: 0; left: 0;
-background: url("../images/bg-home-faccia.jpg") no-repeat center top; position: fixed; z-index: -1;
+background: url("../images/bg-home-faccia.jpg") no-repeat center top; position: absolute; z-index: -1;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 }
 
+#page {
+	width: 100%; height: 100%; top: 0; left: 0;
+	background: url("../images/bg-page.png") repeat center top; position: absolute; z-index: -1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+
 @media (min-width: 768px){
-	#page {
+	#page-bio {
 	width: 100%; height: 100%; top: 0; left: 0;
 	background: url("../images/bg-bio3.jpg") no-repeat center top; position: absolute; z-index: -1;
 	-webkit-background-size: cover;
@@ -37,7 +49,7 @@ background-size: cover;
 }
 
 @media (max-width: 767px){
-	#page {
+	#page-bio {
 	background-color: black;
 	}
 
@@ -264,45 +276,12 @@ right: 200px;
 }
 
 #logo-maps-navbar{
-	width: 30px;
+	width: 100px;
 	position: relative;
 	left: 4px;
 	top: 2px;
-	opacity: 0;
-}
-
-#logo-maps-navbar:hover{
-	opacity: 1;
-}
-
-/*QUESTO + IL CODICE PER I DOPPIO CLICK*/
-.test3 span #logo-soundable-navbar:hover #logo-rockit-navbar:hover #logo-disco-navbar:hover #logo-maps-navbar:hover{
-		position: relative;
 	}
 
-	.test3 span a {
-		position: relative;
-		z-index: 2;
-	}
-	.test3 span a:hover, .test3 span a:active {
-		z-index: 4;
-	}
-	.test3 span input {
-		background: transparent;
-		border: 0;
-		cursor: pointer;
-		position: absolute;
-		top: -1px;
-		left: 0;
-		width: 101%;  /* Hacky */
-		height: 301%; /* Hacky */
-		z-index: 3;
-	}
-	.test3 span input:focus {
-		background: transparent;
-		outline: none;
-		z-index: 1;
-	}
 
 /*/////////////////////////////////////
 
@@ -320,15 +299,14 @@ FOOTER
 	font-size: 8px;
 	text-align: center;
 	position: fixed;
-	}
+}
 
 .panel-footer-home a:hover{
 	text-decoration: none;
 }
 
 .panel-footer-page{
-	width: 100%; left: 0;
-	background-color: black; /*bianco #ffffff*/
+	background-color: black; /*bianco #ffffff*/ 
 	border-color: black;
 	font-weight: bold;
 	font-style: oblique;
@@ -338,14 +316,12 @@ FOOTER
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	width: 100%;
 	}
 
-footer hr{
-	border-color: white;
-	margin-left: 30%;
-	margin-right: 30%;
+.panel-footer-page a:hover{
+	text-decoration: none;
 }
-
 
 /*/////////////////////////////////////
 
@@ -404,22 +380,7 @@ BIO
 	text-align: left;
 	padding: 10px;
 	}
-
-	.panel-footer-page{
-	width: 100%; left: 0;
-	background-color: black; /*bianco #ffffff*/
-	border-color: black;
-	font-weight: bold;
-	font-style: oblique;
-	font-size: 8px;
-	text-decoration: none;
-	text-align: center;
-	position: relative;
-	top: 100% auto -44px; /*va modificato in 3 parti*/
-	}
-
 }
-
 
 #bio-text-BAUMA{
 	position:relative;
@@ -433,23 +394,22 @@ BIO
 	height: auto;
 	padding-right: 0px;
 	padding-left: 0px;
-		
-}
+	}
 
 /*/////////////////////////////////////
 
-DISCOGRAFIA
+MUSICA
 
 ////////////////////////////////////*/
 
 #disco{
-	height: 150px;
-	width: 150px;
+	height: 200px;
+	width: 200px;
 }
 
 /*/////////////////////////////////////
 
-DISCO
+MUSICA
 
 ////////////////////////////////////*/
 
@@ -461,6 +421,29 @@ h2{
 	font-weight: bold;
 }
 
+/*/////////////////////////////////////
+
+POST-IT EP
+
+////////////////////////////////////*/
+
+#SOUDPLATElogo{
+	width: 100px;
+	border-radius: 100px;
+}
+
+#POST-IT-text{
+	margin-left: auto;
+  	margin-right: auto;
+	width: 60%;
+	}
+
+.IMGcenter{
+	margin-left: auto;
+  	margin-right: auto;
+	width: 100%;
+	
+}
 
 /*/////////////////////////////////////
 
@@ -469,8 +452,7 @@ STAMPA
 ////////////////////////////////////*/
 #anno-stampa {
 	font-weight: bold;
-	color: black;
-}
+	}
 
 /*/////////////////////////////////////
 
@@ -491,6 +473,10 @@ STORE
 
 .thumbnail{
 	border-color: black;
+}
+
+.carousel-inner div img {
+margin: auto;
 }
 
 /*/////////////////////////////////////
@@ -517,3 +503,17 @@ CREDITS
 #logo-fc83{
 width: 40px;
 }
+
+
+/*/////////////////////////////////////
+
+CONTATTI
+
+////////////////////////////////////*/
+#SCORZA-img{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+	height: auto;
+	}

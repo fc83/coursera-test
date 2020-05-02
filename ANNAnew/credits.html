@@ -6,27 +6,22 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-      <title>ANNA Credits</title>
+      <title>ANNA credits page</title>
       <!-- Bootstrap -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="css/styles.css">
-      <link href='https://fonts.googleapis.com/css?family=spartan' rel='stylesheet'>
-      <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
-      <link href='https://fonts.googleapis.com/css?family=Spartan' rel='stylesheet'>
+            
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
+        <![endif]-->
+
   </head>
 
-  <body>
+  <body class="container" id="page"> 
 
-    <div class="container">
-      <!--/////////////////////////////////////
-      NAVBAR 
-      ////////////////////////////////////-->
       <header>  
         
         <nav class="navbar navbar-default"><!-- Brand and toggle get grouped for better mobile display -->
@@ -47,37 +42,69 @@
           </div><!-- Collect the nav links, forms, and other content for toggling -->
 
             <ul class="nav navbar-nav visible-sm visible-md visible-lg" id="bar-list">
-              <li></li>
+              <li><a href="musica.html">Musica</a></li>
               <li><a href="biografia.html">Biografia</a></li>
-              <hr class="visible-xs">
-              <hr class="visible-xs">              
               <li><a href="stampa.html">Stampa</a></li>
               <li><a href="store.html">Store</a></li>
-              <hr class="visible-xs">
               <li><a href="galleria.html">Galleria</a></li>
-              <li><a href="https://www.facebook.com/AnnaGiustiOfficial/" target="_blank" title="FacebookOfficial">News</a></li>
+              <li><a href="news.html" target="_blank" title="FacebookOfficial">News</a></li>
             </ul>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-              <div class="visible-xs" id="tasto-bianco-lungo1">(NONE)</div> 
-              <div class="visible-xs" id="tasto-nero-corto"><a href="musica.html">Musica</a></div>
-              <div class="visible-xs" id="tasto-bianco-corto1">(NONE)</div>
-              <div class="visible-xs" id="tasto-nero-corto"><a href="biografia.html">Biografia</a></div>
-              <div class="visible-xs" id="tasto-bianco-corto">(NONE)</div>
-              <div class="visible-xs" id="tasto-bianco-lungo">(NONE)</div>            
-               <div class="visible-xs" id="tasto-nero-corto"><a href="stampa.html">Stampa</a></div>
-              <div class="visible-xs" id="tasto-bianco-corto1">(NONE)</div>
-              <div class="visible-xs" id="tasto-nero-corto"><a href="store.html">Store</a></div>
-              <div class="visible-xs" id="tasto-bianco-corto">(NONE)</div>
-              <div class="visible-xs" id="tasto-bianco-lungo">(NONE)</div>  
-              <div class="visible-xs" id="tasto-nero-corto"><a href="galleria.html">Galleria</a></div>
-              <div class="visible-xs" id="tasto-bianco-corto1">(NONE)</div>
-               <div class="visible-xs" id="tasto-nero-corto"><a href="https://www.facebook.com/AnnaGiustiOfficial/" target="_blank" title="FacebookOfficial">News</a></div>
-              <div class="visible-xs" id="tasto-bianco-corto">(NONE)</div>
-              <div class="visible-xs" id="tasto-bianco-lungo">(NONE)</div> 
+            <div id="PLAYTHEPIANO" class="visible-xs">SUONA IL PIANOFORTE</div>
+
+            <a href="#" onmousedown="FA.play()">
+            <div class="visible-xs" id="tasto-bianco-lungo1"></div>
+            </a>
+
+            <div class="visible-xs" id="tasto-nero-corto"><a href="musica.html">Musica</a></div>
+
+            <a href="#" onmousedown="FA.play()">
+            <div class="visible-xs" id="tasto-bianco-corto1"></div>
+            </a>
+
+            <div class="visible-xs" id="tasto-nero-corto"><a href="biografia.html">Biografia</a></div>
+
+            <a href="#" onmousedown="JINGLE.play()">
+            <div class="visible-xs" id="tasto-bianco-corto"></div>
+            </a>
+
+            <a href="#" onmousedown="JINGLE.play()">
+            <div class="visible-xs" id="tasto-bianco-lungo"></div>            
+            </a>
+
+            <div class="visible-xs" id="tasto-nero-corto"><a href="stampa.html">Stampa</a></div>
+            
+            <a href="#" onmousedown="JINGLE.play()">
+            <div class="visible-xs" id="tasto-bianco-corto1"></div>
+            </a>
               
-              <br>
+            <div class="visible-xs" id="tasto-nero-corto"><a href="store.html">Store</a></div>
+                    
+            <a href="#" onmousedown="MELODY.play()">
+            <div class="visible-xs" id="tasto-bianco-corto"></div>
+            </a>
+
+            <a href="#" onmousedown="MELODY.play()">
+            <div class="visible-xs" id="tasto-bianco-lungo"></div>  
+            </a>    
+
+            <div class="visible-xs" id="tasto-nero-corto"><a href="galleria.html">Galleria</a></div>
+            
+            <a href="#" onmousedown="MELODY.play()">
+            <div class="visible-xs" id="tasto-bianco-corto1"></div>
+            </a>
+
+            <div class="visible-xs" id="tasto-nero-corto"><a href="https://www.facebook.com/AnnaGiustiOfficial/" target="_blank" title="FacebookOfficial">News</a></div>
+             
+            <a href="#" onmousedown="SI.play()">
+            <div class="visible-xs" id="tasto-bianco-corto"></div>
+            </a>
+
+            <a href="#" onmousedown="SI.play()">
+            <div class="visible-xs" id="tasto-bianco-lungo"></div> 
+            </a>
           
           
             <section id="socials-navbar" class="visible-xs">
@@ -108,12 +135,14 @@
         </nav>   
       </header>
 
+     
+
     <!--/////////////////////////////////////
     PAGE
     ////////////////////////////////////-->
 
     <div class="text-center">
-      
+            
       <h2> Credits </h2>
       <br>
       <div>Handmade at home thanks to my wife.</div>
@@ -121,43 +150,37 @@
       <img src="images/logo-fc83.png" id="logo-fc83">
       <div>&nbsp</div>
       <div>fc83@outlook.com</div>
+      <br>
 
-         
-    <br>
+    </div> <!--PAGE-->
 
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.min.js"></script>
+    <div id="push"></div>
 
-    <!--/////////////////////////////////////
-    FOOTER
-    ////////////////////////////////////-->
 
-        <footer class="panel-footer" id="footer-list">
-          <div class="text-center" class="row">
-            <section class="col-sm-6">
-              <br class="visible-xs">
-              <a href="contatti.html"><span id="footer-text">CONTATTI</span></a>
-              <br>
-              <hr class="visible-xs">
+    <!-- INIZIO DIV FOOTER -->
+    <div class="text-center panel-footer-page">
+        <footer>
+         <div class="row">
+            <section class="col-xs-6">
+             <a href="contatti.html"><span>CONTATTI</span></a>
             </section>
 
-            <section class="col-sm-6">
-              <a href="credits.html"><span id="footer-text"><span>CREDITS</span></span></a>
-              <br>
-              <hr class="visible-xs">
+            <section class="col-xs-6">
+              <a href="credits.html"><span>CREDITS</span></a>
             </section>
           </div>
-
-          <div>&nbsp</div>
-
-          <div class="text-center">2020 &copy; Copyright. ALL RIGHT RESERVED SCORZA LABEL</div>
-
+          <div>2020 &copy; Copyright</div>
+          <div>ALL RIGHT RESERVED SCORZA LABEL</div>         
         </footer>
+    </div> <!--FINE DIV FOOTER-->
 
-    </div>
+    
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
   </body>
-
+  
 </html>
