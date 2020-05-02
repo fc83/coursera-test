@@ -5,6 +5,10 @@
 
 html, body { height: 100%; margin: 0; padding: 0; }
 
+.row{
+	margin: 0;
+}
+
 .container {
     width: 100%;
     min-height: 100%;
@@ -501,7 +505,7 @@ CREDITS
 
 ////////////////////////////////////*/
 #logo-fc83{
-width: 40px;
+width: 150px;
 }
 
 
