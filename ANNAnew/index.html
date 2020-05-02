@@ -60,7 +60,7 @@
 
 	        <div id="PLAYTHEPIANO" class="visible-xs">SUONA IL PIANOFORTE</div>
 
-            <div class="visible-xs" id="tasto-bianco-lungo1">ASCOLTA POST-IT EP</div> 
+            <div class="visible-xs" id="tasto-bianco-lungo1"><a href="#" onmousedown="SI.play()">ASCOLTA POST-IT EP</a></div> 
 
             <div class="visible-xs" id="tasto-nero-corto"><a href="musica.html">Musica</a></div>
 
@@ -172,7 +172,10 @@
 
         </div>
       
-        
+        <script>
+        	var SI = new Audio ();
+        	SI.src = "musica/SI.wav";
+        </script>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
