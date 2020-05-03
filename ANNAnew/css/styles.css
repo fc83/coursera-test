@@ -458,6 +458,14 @@ STAMPA
 	font-weight: bold;
 	}
 
+hr{
+	width: 80%;
+
+}
+#hr-stampa{
+	width: 30%
+}
+
 /*/////////////////////////////////////
 
 STORE
