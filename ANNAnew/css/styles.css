@@ -14,12 +14,12 @@ html, body { height: 100%; margin: 0; padding: 0; }
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -44px; /*va modificato in 3 parti*/
+    margin: 0 auto -60px; /*va modificato in 3 parti*/
     padding: 0;
 }
 
 .panel-footer-page, #push {
-    min-height: 44px; /*va modificato in 3 parti*/
+    min-height: 60px; /*va modificato in 3 parti*/
 }
 
 
@@ -464,10 +464,6 @@ STORE
 
 ////////////////////////////////////*/
 
-.FOTO-STORE{
-	height: 500px;
-	width: 500px;
-}
 
 .btn, .btn-default, .btn:hover, .btn-default:hover, .btn:active:focus, .btn-default:active:focus, .btn:visited, .btn-default:visited {
 	color: black;
@@ -477,6 +473,10 @@ STORE
 
 .thumbnail{
 	border-color: black;
+	width: 250px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .carousel-inner div img {
