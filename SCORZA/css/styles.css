@@ -3,25 +3,56 @@
 	font-family: Arial, Helvetica, SansSerif;
   	font-size: 24px;
   	color: white;
-}
+  }
 
 html, body {  height: 100%; }
 
-.header{
-	height: 60px;
-	width: 100%;
-	background-color: black; opacity: 0.5; /* #75151e; */
-	display: block;
-	border-bottom: 1px solid black;
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  
 }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: black; opacity: 0.75;
+	
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+
+
+.navbar, .navbar-defauls, .navbar-header{
+	background-color: black; opacity: 0.75;
+	margin: 0;
+	border-radius: 0;
+	border-color:transparent;
+	}
+
+.navbar-brand div img{
+	height: 60px;
+	width: auto;
+	position: relative;
+	bottom: 15px;
+
+	}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: white;
+	}
+
+.nav {
+	float: right;
+
+}
+
+
 
 #logo-scorza{
 	height: 50px;
-	padding-left:5px;
-	position: relative;
-	bottom: 3px;
 	vertical-align: middle;
-	line-height: 60px;
+	position: relative;
+	bottom: 10px;
 	}
 
 #logo-SCORZA-testo{
