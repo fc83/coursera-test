@@ -19,7 +19,7 @@ html, body { height: 100%; margin: 0; padding: 0; }
 }
 
 .panel-footer-page, #push {
-    min-height: 60px; /*va modificato in 3 parti*/
+    height: 60px; /*va modificato in 3 parti*/
 }
 
 

@@ -3,6 +3,7 @@
 	font-family: Arial, Helvetica, SansSerif;
   	font-size: 24px;
   	color: white;
+  	margin: 0;
   }
 
 html, body {  height: 100%; }
@@ -17,25 +18,20 @@ html, body {  height: 100%; }
 	
 }
 
-.navbar-default .navbar-toggle .icon-bar{
+.navbar-default .navbar-toggle .icon-bar{ /*tasto menù*/
 	background-color: white;
 }
 
 
 .navbar, .navbar-defauls, .navbar-header{
+	color: white;
 	background-color: black; opacity: 0.75;
 	margin: 0;
 	border-radius: 0;
 	border-color:transparent;
 	}
 
-.navbar-brand div img{
-	height: 60px;
-	width: auto;
-	position: relative;
-	bottom: 15px;
 
-	}
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	border-color: white;
@@ -43,41 +39,54 @@ html, body {  height: 100%; }
 
 .nav {
 	float: right;
-
-}
-
-
+	}
 
 #logo-scorza{
-	height: 50px;
-	vertical-align: middle;
+	height: 40px;
+	padding-left: 5px;
+	padding-right: 5px;
 	position: relative;
-	bottom: 10px;
+	top: 5px;
+	position: relative;
+	float: left;
 	}
 
 #logo-SCORZA-testo{
 	font-family: arial;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 20px;
 	text-decoration: none;
+	color: white;
+	width: 300px;
 	vertical-align: middle;
-	line-height: 60px;
+	line-height: 50px; 
+	position: relative;
+	float: left;
 }
 
-#logo-SCORZA-testo a:hover{
+
+#logo-SCORZA-testo span:hover{
 	text-decoration: none;
+}
+
+#bar-list a{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+
 }
 
 .container {
     width: 100%;
     min-height: 100%;
     height: auto !important;
-    margin: 0 auto -33px; /*va modificato in 3 parti*/
+    margin: 0 auto -60px; /*va modificato in 3 parti*/
     padding: 0;
 }
 
 .footer, #push {
-	height: 60px;
+	min-height: 60px;
 	}
 
 
@@ -95,7 +104,7 @@ border-top: 1px solid black;
 
 #footer-text{
 	font-style: oblique;
-	font-size: 12px;
+	font-size: 9px;
 }
 
 #footer-text a:hover{
@@ -103,7 +112,6 @@ border-top: 1px solid black;
 }
 
 .content{
-	font-weight: bold;
 	font-weight: bold;
 	font-family: arial;
 	text-align: center;
@@ -119,6 +127,15 @@ background: url(../images/bg-musicassetta-vista.jpg) no-repeat center top; posit
 background-size: cover;
 }
 
+#bg-page {
+width: 100%; height: 100%; top: 0; left: 0;
+background: url(../images/bg-cassette.jpg) no-repeat center top; position: relative; z-index: 0; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
 #artisti{
 	background-color: white;
 	color: gray;
@@ -126,16 +143,13 @@ background-size: cover;
 
 #testo-artisti{
 	color: black;
+	font-weight: bold;
+	font-family: Dancing Script;
+	position: relative;
+	top: 64px;
 	}
 
-#FOTO-ARTISTA{
+#cassetta{
 	width: 300px;
-	height: 300px;
-	border-radius: 150px;
-}
-
-.row{
-	margin: 0;
-}
-
-
+	opacity: 1;
+	}
