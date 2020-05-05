@@ -136,15 +136,10 @@ background: url(../images/bg-cassette.jpg) no-repeat center top; position: relat
 background-size: cover;
 }
 
-#artisti{
-	background-color: white;
-	color: gray;
-	}
-
 #testo-artisti{
 	color: black;
 	font-weight: bold;
-	font-family: Dancing Script;
+	font-family: tipewriter;
 	position: relative;
 	top: 64px;
 	}
@@ -152,4 +147,15 @@ background-size: cover;
 #cassetta{
 	width: 300px;
 	opacity: 1;
+	}
+
+#artisti{
+	width: 90%;
+	position: relative;
+	left:5%;
+	background-color: white; opacity: 0.75;
+	color: black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	
 	}
