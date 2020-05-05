@@ -6,7 +6,11 @@
   	margin: 0;
   }
 
-html, body {  height: 100%; }
+.row{
+	margin: 0;
+}
+
+html, body {  height: 100%; margin: 0; padding: 0; border: 0; }
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
@@ -81,8 +85,10 @@ html, body {  height: 100%; }
     width: 100%;
     min-height: 100%;
     height: auto !important;
-    margin: 0 auto -60px; /*va modificato in 3 parti*/
+    margin-bottom: 0 auto -60px; /*va modificato in 3 parti*/
     padding: 0;
+    margin: 0;
+
 }
 
 .footer, #push {
@@ -155,7 +161,7 @@ background-size: cover;
 	left:5%;
 	background-color: white; opacity: 0.75;
 	color: black;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
 	
 	}
