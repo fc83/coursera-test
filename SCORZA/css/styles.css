@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	font-family: Arial, Helvetica, SansSerif;
   	font-size: 24px;
-  	color: white;
+  	color: black;
   	}
 
 html, body { height: 100%; margin: 0; padding: 0; }
@@ -42,6 +42,7 @@ html, body { height: 100%; margin: 0; padding: 0; }
 
 .nav {
 	float: right;
+	text-align: right;
 	}
 
 #logo-scorza{
@@ -108,13 +109,17 @@ border-top: 1px solid black;
 }
 
 #footer-text{
+	color: white;
 	font-style: oblique;
 	font-size: 9px;
-}
-
-#footer-text a:hover{
 	text-decoration: none;
 }
+
+div a:hover{
+	text-decoration: none;
+}
+
+
 
 .content{
 	font-weight: bold;
@@ -143,10 +148,11 @@ background-size: cover;
 
 #testo-artisti{
 	color: black;
+	font-size: 22px;
 	font-weight: bold;
 	font-family: tipewriter;
 	position: relative;
-	top: 64px;
+	top: 55px;
 	}
 
 #cassetta{
@@ -154,7 +160,14 @@ background-size: cover;
 	opacity: 1;
 	}
 
-#artisti{
+#cotenitore-TITOLO-PAGE{
+	background-color: white; opacity: 0.75;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+#TITOLO-PAGE{
 	width: 90%;
 	position: relative;
 	left:5%;
@@ -162,5 +175,79 @@ background-size: cover;
 	color: black;
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
-	
+		}
+
+/*/////////////////////////////////////
+
+CONTATTI
+
+////////////////////////////////////*/
+#SCORZA-img{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+	height: auto;
 	}
+
+/*/////////////////////////////////////
+
+CREDITS
+
+////////////////////////////////////*/
+#logo-fc83{
+width: 150px;
+}
+
+/*/////////////////////////////////////
+
+DISEGNO CASSETTA
+
+////////////////////////////////////*/
+#cassetta-bordo-nero{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	height: 200px;
+	width: 128px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+
+}
+
+#cassetta-bordo-grigio{
+
+	border: 3px solid gray;
+	height: 196px;
+	width: 126px;
+	border: 5px 5px 5px 1px solid gray;	
+}
+
+#cassetta-bordo-nero-lato{
+	position: relative;
+	left: 50%;
+	height: 200px;
+	width: 24px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	position: relative;
+	float: left;
+}
+
+#cassetta-bordo-grigio-lato{
+	font-size: 20px;
+	background-color: white;
+	border: 3px solid gray;
+	height: 196px;
+	width: 24px;
+	border: 5px 5px 5px 1px solid gray;
+	writing-mode: vertical-rl;
+	position: relative;
+	vertical-align: middle;
+	line-height: 20px; 
+}
+
+#link-sito{
+	color: black;
+}
