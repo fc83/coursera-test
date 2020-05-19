@@ -1,0 +1,256 @@
+*{
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, SansSerif;
+  	font-size: 24px;
+  	color: black;
+  	}
+
+html, body { height: 100%; margin: 0; padding: 0; }
+
+.row{
+	margin: 0;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: black; opacity: 0.75;
+	
+}
+
+.navbar-default .navbar-toggle .icon-bar{ /*tasto menù*/
+	background-color: white;
+}
+
+.navbar, .navbar-defauls, .navbar-header{
+	color: white;
+	background-color: black; opacity: 0.75;
+	margin: 0;
+	border-radius: 0;
+	border-color:transparent;
+	}
+
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: white;
+	}
+
+.nav {
+	float: right;
+	text-align: right;
+	}
+
+#logo-scorza{
+	height: 40px;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: relative;
+	top: 5px;
+	position: relative;
+	float: left;
+	}
+
+#logo-SCORZA-testo{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	width: 150px;
+	vertical-align: middle;
+	line-height: 50px; 
+	position: relative;
+	float: left;
+}
+
+
+#logo-SCORZA-testo span:hover{
+	text-decoration: none;
+}
+
+#bar-list a{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+.container {
+    width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    margin-bottom: 0 auto -60px; /*va modificato in 3 parti*/
+    padding: 0;
+    margin: 0;
+
+}
+
+.footer, #push {
+	min-height: 60px;
+	}
+
+
+.footer{
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+margin: 0;
+padding: 0;
+background-color: black; opacity: 0.75; /* #75151e; */
+text-align: center;
+border-top: 1px solid black;
+}
+
+#footer-text{
+	color: white;
+	font-style: oblique;
+	font-size: 9px;
+	text-decoration: none;
+}
+
+div a:hover{
+	text-decoration: none;
+}
+
+
+
+.content{
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+}
+
+
+#bg-home {
+width: 100%; height: 100%; top: 0; left: 0;
+background: url(../images/bg-musicassetta-vista.jpg) no-repeat center top; position: absolute; z-index: 0;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#bg-page {
+width: 100%; height: 100%; top: 0; left: 0;
+background: url(../images/bg-grigio.png) no-repeat center top; position: relative; z-index: 0; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#testo-artisti{
+	color: black;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: tipewriter;
+	position: relative;
+	top: 55px;
+	}
+
+#cassetta{
+	width: 300px;
+	opacity: 1;
+	}
+
+#cotenitore-TITOLO-PAGE{
+	background-color: white; opacity: 0.75;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+#TITOLO-PAGE{
+	width: 90%;
+	position: relative;
+	left:5%;
+	background-color: white; opacity: 0.75;
+	color: black;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+		}
+
+/*/////////////////////////////////////
+
+CONTATTI
+
+////////////////////////////////////*/
+#SCORZA-img{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+	height: auto;
+	}
+
+/*/////////////////////////////////////
+
+CREDITS
+
+////////////////////////////////////*/
+#logo-fc83{
+width: 150px;
+}
+
+/*/////////////////////////////////////
+
+DISEGNO CASSETTA
+
+////////////////////////////////////*/
+#cassetta-bordo-nero{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	height: 400px;
+	width: 256px;
+	border-top: 4px solid black;
+	border-right: 4px solid black;
+	border-bottom: 4px solid black;
+	background-color: white;
+
+}
+
+#cassetta-bordo-grigio{
+
+	border: 6px solid gray; opacity: 0.75;
+	height: 392px;
+	width: 252px;
+	border: 10px 10px 10px 2px solid gray;	
+}
+
+#cassetta-bordo-nero-lato{
+	position: relative;
+	background-color: white;
+	left: 50%;
+	height: 200px;
+	width: 24px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	position: relative;
+	float: left;
+}
+
+#cassetta-bordo-grigio-lato{
+	font-size: 20px;
+	background-color: white;
+	border: 3px solid gray;
+	height: 196px;
+	width: 24px;
+	border: 5px 5px 5px 1px solid gray;
+	writing-mode: vertical-rl;
+	position: relative;
+	vertical-align: middle;
+	line-height: 20px; 
+}
+
+#link-sito{
+	color: black;
+	font-size: 14px;
+}
+
