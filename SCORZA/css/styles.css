@@ -207,7 +207,7 @@ DISEGNO CASSETTA
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	height: 400px;
+	height: 394px;
 	width: 256px;
 	border-top: 4px solid black;
 	border-right: 4px solid black;
@@ -218,8 +218,8 @@ DISEGNO CASSETTA
 
 #cassetta-bordo-grigio{
 
-	border: 6px solid gray; opacity: 0.75;
-	height: 392px;
+	border: 6px solid gray;
+	height: 386px;
 	width: 252px;
 	border: 10px 10px 10px 2px solid gray;	
 }
@@ -232,7 +232,6 @@ DISEGNO CASSETTA
 	width: 24px;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
-	position: relative;
 	float: left;
 }
 
@@ -388,4 +387,58 @@ BRICIOLE
 	width: 70%;
 	height: 100%;
 	padding-top: 57.31%; /* 1:1 Aspect Ratio */
+  }
+
+  /*/////////////////////////////////////
+
+FLIP
+
+////////////////////////////////////*/
+
+.team-cassetta{
+	vertical-align: middle;
+	line-height: 400px; 
+}
+
+  .flip-box {
+	background-color: transparent;
+	height: 394px;
+	width: 256px;
+	border: 1px solid #f1f1f1;
+	perspective: 1000px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  .flip-box-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+	transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+	background-color: white;
+	color: black;
+  }
+  
+  .flip-box-back {
+	background-color: white;
+	color: white;
+	transform: rotateY(180deg);
   }
