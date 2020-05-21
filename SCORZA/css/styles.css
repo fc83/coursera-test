@@ -404,7 +404,7 @@ FLIP
 	background-color: transparent;
 	height: 394px;
 	width: 256px;
-	border: 1px solid #f1f1f1;
+	border: 1px solid transparent;
 	perspective: 1000px;
 	position: relative;
 	margin-left: auto;
