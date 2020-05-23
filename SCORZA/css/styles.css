@@ -11,6 +11,54 @@ html, body { height: 100%; margin: 0; padding: 0; }
 	margin: 0;
 }
 
+/*/////////////////////////////////////
+
+VIDEO HOME PAGE
+
+////////////////////////////////////*/
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+	position: fixed; 
+	z-index: -1;
+	top: 0;
+	left: 0;
+  }
+
+  @media (min-aspect-ratio: 16/9) {
+	#myVideo{  
+	width: 100%;
+	height: auto;
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+	#myVideo{  
+	width: auto%;
+	height: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	#myVideo{  
+		display: none;
+	}
+	#bg-home {
+		width: 100%; height: 100%; top: 0; left: 0;
+		background: url(../images/bg-musicassetta-vista.jpg) no-repeat center top; position: absolute; z-index: 0;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		}
+}
+  
+/*/////////////////////////////////////
+
+NAVBAR
+
+////////////////////////////////////*/
+
 .navbar-default .navbar-toggle {
   border-color: transparent;
   
