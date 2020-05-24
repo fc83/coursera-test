@@ -33,7 +33,7 @@
     <div class="contentVIDEO">
       <h1>SCORZA label </h1>
        <p class="fraseVIDEO">Scopri la nostra musica, premi play!</p>
-      <a href="javascript:setTimeout(()=>{window.location = 'home.html' },4000);">
+      <a href="javascript:setTimeout(()=>{window.location = 'home.html'},4000);">
         <button id="myBtn" onclick="myFunction()">PLAY</button>
       </a>
 
@@ -50,13 +50,14 @@
     <script>
       // Get the video
       var video = document.getElementById("myVideo");
-      var video = document.getElementById("myVideoVerticale");      
+      var video2 = document.getElementById("myVideoVerticale");      
       // Get the button
       var btn = document.getElementById("myBtn");
       
       // Pause and play the video, and change the button text
       function myFunction() {
         video.play()
+        video2.play()
       }
 
 
