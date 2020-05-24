@@ -209,6 +209,11 @@ NAVBAR
 	float: left;
 	}
 
+	#logo-scorza-index{
+		height: 50px;
+		margin: 0px 5px 0px 5px;
+		}
+
 #logo-SCORZA-testo{
 	font-family: arial;
 	font-weight: bold;
@@ -220,6 +225,15 @@ NAVBAR
 	line-height: 50px; 
 	position: relative;
 	float: left;
+}
+
+#logo-SCORZA-testo-index{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	width: 150px;
 }
 
 
