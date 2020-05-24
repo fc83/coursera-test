@@ -19,85 +19,25 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-
-      <div class="container" id="bg-home">   
-
-        <nav class="navbar navbar-default" id="bar-list">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header" >
-              
-                <div >
-                <a  href="index.html" >
-                <img alt="Brand" src="images/logo-scorza-transparente-bianco.png" id="logo-scorza">
-                <span id="logo-SCORZA-testo">SCORZA label</span>
-                </a>
-                </div>
-              
-
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav" >
-                <li><a href="artisti.html">Artisti</a></li>
-                <li><a href="briciole.html">Briciole live</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="https://www.facebook.com/SCORZALABEL/?ref=page_internal" target="_blank">Facebook</a></li>
-                <li><a href="https://www.youtube.com/channel/UCkR9VH-_uzlTso3IiuKPSrg?fbclid=IwAR2W7S_GFJgK6r0636XnlnlX2RjkkcpiLSL8B1L8Z2jkRljP9t9173fJQCc" target="_blank">YouTube</a></li> 
-              </ul>            
-            </div><!-- /.navbar-collapse -->
-         
-        </nav>    
+  <body id="bg-home">  
+    
+    
+    <video id="myVideo">
+      <source src="images/Video1.mp4" type="video/mp4">
+    </video>
 
 
-
-
-
-        <!-- CONTENT-->
-     
-        <div class="content" class="text-center" >
-          
-          <video autoplay muted loop id="myVideo">
-            <source src="images/Video1.mp4" type="video/mp4">
-          </video>
-
-        </div>
-
-        <!-- CONTENT-->
-
-
-
-
-             
-        <div id="push"></div>
-
-      </div> <!-- END CONTAINER-->
-
-      <div class="footer">
-
-        <div class="row">
-          <section class="col-xs-6">
-           <a href="contatti.html" id="footer-text"><span id="footer-text">CONTATTI</span></a>
-          </section>
-
-          <section class="col-xs-6">
-            <a href="credits.html" ><span id="footer-text">CREDITS</span></a>
-          </section>
-
-        </div>
-
-        <div id="footer-text">2020 &copy; Copyright.</div>
-        <div id="footer-text">ALL RIGHT RESERVED SCORZA LABEL</div>
-        
-      </div> 
+    <div class="contentVIDEO">
+      <h1>SCORZA label </h1>
+      <p class="fraseVIDEO">Vuoi scoprire la nostra musica? Gira la cassetta e premi play!</p>
+      <p class="fraseVIDEO2">Vuoi scoprire la nostra musica? Premi play!</p>
+      <img src="images/Ruota-schermo-trasparente.png" id="Ruota-shermo">
+      
+      <a class="delay" href="javascript:setTimeout(()=>{window.location = 'home.html' },4000);">
+        <button id="myBtn" onclick="myFunction()">PLAY</button>
+      </a>
+    </div>      
+    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -105,5 +45,21 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/ajax-utils.js"></script>
     <script src="js/script.js"></script>
+
+    <script>
+      // Get the video
+      var video = document.getElementById("myVideo");
+      
+      // Get the button
+      var btn = document.getElementById("myBtn");
+      
+      // Pause and play the video, and change the button text
+      function myFunction() {
+        video.play()
+      }
+
+
+
+      </script>
   </body>
 </html>
