@@ -50,6 +50,10 @@ VIDEO HOME PAGE
 		-o-background-size: cover;
 		background-size: cover;
 		}
+
+	.delay{
+		display: none;
+	}
 }
 
 
@@ -85,37 +89,22 @@ VIDEO HOME PAGE
 	float: left;
 	}
 
-  @media (max-width: 767px) {
-
 	.fraseVIDEO{
 		color: white;
 		font-size: 14px;
 	}
-
-	.fraseVIDEO2{
-	  display: none;
-	  }
-
-	#myBtn{
-	display: none;
-	}
-}
 
   @media (min-width: 768px) {
 
 	#Ruota-shermo{  
 		display: none;
 	}
-	
-	.fraseVIDEO2{
-		color: white;
-		font-size: 14px;
-		}
 
-	.fraseVIDEO{
-	  display: none;
-	  }
+	.nodelay{
+		display: none;
 	}
+
+}
   
   #myBtn {
 	width: 200px;

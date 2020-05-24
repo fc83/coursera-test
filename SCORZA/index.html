@@ -21,6 +21,7 @@
   </head>
   <body id="bg-home">  
     
+    <img src="images/Ruota-schermo-trasparente.png" id="Ruota-shermo">
     
     <video id="myVideo">
       <source src="images/Video1.mp4" type="video/mp4">
@@ -29,13 +30,15 @@
 
     <div class="contentVIDEO">
       <h1>SCORZA label </h1>
-      <p class="fraseVIDEO">Vuoi scoprire la nostra musica? Gira la cassetta e premi play!</p>
-      <p class="fraseVIDEO2">Vuoi scoprire la nostra musica? Premi play!</p>
-      <img src="images/Ruota-schermo-trasparente.png" id="Ruota-shermo">
-      
+       <p class="fraseVIDEO">Vuoi scoprire la nostra musica? Premi play!</p>
       <a class="delay" href="javascript:setTimeout(()=>{window.location = 'home.html' },4000);">
         <button id="myBtn" onclick="myFunction()">PLAY</button>
       </a>
+
+      <a class="nodelay" href="home.html">
+        <button id="myBtn" onclick="myFunction()">PLAY</button>
+      </a>
+
     </div>      
     
 
