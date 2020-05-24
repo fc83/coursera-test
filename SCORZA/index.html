@@ -33,7 +33,7 @@
     <div class="contentVIDEO">
       <h1>SCORZA label </h1>
        <p class="fraseVIDEO">Scopri la nostra musica, premi play!</p>
-      <a href="javascript:setTimeout(()=>{window.location = 'home.html'},4000);">
+      <a onmousedown="AudioVideo.play()" href="javascript:setTimeout(()=>{window.location = 'home.html'},4000);">
         <button id="myBtn" onclick="myFunction()">PLAY</button>
       </a>
 
@@ -60,7 +60,8 @@
         video2.play()
       }
 
-
+      var AudioVideo = new Audio ();
+      AudioVideo.src = "images/Video-audio.mp3";
 
       </script>
   </body>
