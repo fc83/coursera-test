@@ -17,7 +17,7 @@ VIDEO HOME PAGE
 
 ////////////////////////////////////*/
 /* Style the video: 100% width and height to cover the entire window */
-#myVideo {
+#myVideo{
 	position: fixed; 
 	z-index: -1;
 	top: 0;
@@ -29,6 +29,11 @@ VIDEO HOME PAGE
 	width: 100%;
 	height: auto;
 	}
+
+	#myVideoVerticale{  
+		width: auto;
+		height: 100%;
+		}
 }
 
 @media (max-aspect-ratio: 16/9) {
@@ -36,28 +41,27 @@ VIDEO HOME PAGE
 	width: auto;
 	height: 100%;
 	}
+
+	#myVideoVerticale{  
+		width: 100%;
+		height: auto;
+		}
 }
 
 @media (max-width: 768px) {
-	#myVideo{  
+	#myVideo {   
 		display: none;
 	}
-	#bg-home {
-		width: 100%; height: 100%; top: 0; left: 0;
-		background: url(../images/bg-home.jpg) no-repeat center top; position: absolute; z-index: 0;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		}
+}
 
-	.delay{
+@media (min-width: 769px) {
+	#myVideoVerticale{  
 		display: none;
 	}
 }
 
 
-
+/*
 #bg-home {
 	width: 100%; height: 100%; top: 0; left: 0;
 	background: url(../images/bg-home.jpg) no-repeat center top; position: absolute; z-index: 0;
@@ -65,7 +69,7 @@ VIDEO HOME PAGE
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	}
+	}*/
 
 .contentVIDEO {
 	position: fixed;
@@ -79,32 +83,11 @@ VIDEO HOME PAGE
 	text-decoration: none;
   }
 
-  #Ruota-shermo{
-	height: 40px;
-	padding-left: 5px;
-	padding-right: 5px;
-	position: relative;
-	top: 5px;
-	position: relative;
-	float: left;
-	}
-
 	.fraseVIDEO{
 		color: white;
 		font-size: 14px;
 	}
 
-  @media (min-width: 768px) {
-
-	#Ruota-shermo{  
-		display: none;
-	}
-
-	.nodelay{
-		display: none;
-	}
-
-}
   
   #myBtn {
 	width: 200px;

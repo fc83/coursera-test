@@ -19,23 +19,21 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body id="bg-home">  
-    
-    <img src="images/Ruota-schermo-trasparente.png" id="Ruota-shermo">
+  <body>  
     
     <video id="myVideo">
       <source src="images/Video1.mp4" type="video/mp4">
+    </video>
+
+    <video id="myVideoVerticale">
+      <source src="images/Video1-verticale.mp4" type="video/mp4">
     </video>
 
 
     <div class="contentVIDEO">
       <h1>SCORZA label </h1>
        <p class="fraseVIDEO">Vuoi scoprire la nostra musica? Premi play!</p>
-      <a class="delay" href="javascript:setTimeout(()=>{window.location = 'home.html' },4000);">
-        <button id="myBtn" onclick="myFunction()">PLAY</button>
-      </a>
-
-      <a class="nodelay" href="home.html">
+      <a href="javascript:setTimeout(()=>{window.location = 'home.html' },4000);">
         <button id="myBtn" onclick="myFunction()">PLAY</button>
       </a>
 
@@ -52,6 +50,7 @@
     <script>
       // Get the video
       var video = document.getElementById("myVideo");
+      var video = document.getElementById("myVideoVerticale");
       
       // Get the button
       var btn = document.getElementById("myBtn");
