@@ -2,8 +2,8 @@
 	box-sizing: border-box;
 	font-family: Arial, Helvetica, SansSerif;
   	font-size: 24px;
-  	color: black;
-  	}
+	color: black;
+}
 
 html, body { height: 100%; margin: 0; padding: 0; }
 
@@ -75,23 +75,26 @@ VIDEO HOME PAGE
 
 .socials-position{
 	position: relative;
+	float: left;
 	top: 10px;
-	width: 50px;
+	left: 10px;
+	width: 200px;
+	height: 50px;
 }
 
 @media (max-width: 767px){
 
 	#socials-navbar{
-	position: relative;
-	width: 50px;
-	left:25;
-	top: 10px;
+		position: relative;
+		float: left;
+		top: 10px;
+		left: 10px;
+		width: 200px;
+		height: 50px;
 	}
 
-	section.socials-position{
-		width: 0px;
-		position: relative;
-		left: -1000px;
+	.socials-position{
+		display: none;
 		}
 
 	}
@@ -100,8 +103,8 @@ VIDEO HOME PAGE
 	position: relative;	
 	width: 50px;
 	height: 50px;
-	margin: 0px 5px 0px 5px;
-	border-radius: 30px;
+	margin: 0px 5px 0px 0px;
+	border-radius: 10px;
 	opacity: 0.75;
 	}	
 	
@@ -113,6 +116,15 @@ VIDEO HOME PAGE
 	border-radius: 10px;
 	opacity: 0.75;
 	}
+
+.logo-spotify {
+	position: relative;	
+	width: 50px;
+	height: 50px;
+	margin: 0px 5px 0px 5px;
+	border-radius: 10px;
+	opacity: 0.75;
+	}	
 
 
 /*
@@ -186,20 +198,22 @@ NAVBAR
 	margin: 0;
 	border-radius: 0;
 	border-color:transparent;
+	padding: 0px;	
 	}
 
 
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	border-color: white;
-	}
+	padding: 0px;
+	height: 130px;	
+}
 
 .nav {
 	float: right;
 	text-align: right;
 	}
 
-#logo-scorza{
+#logo-scorza {
 	height: 40px;
 	padding-left: 5px;
 	padding-right: 5px;
@@ -385,8 +399,7 @@ DISEGNO CASSETTA
 
 }
 
-#cassetta-bordo-grigio{
-
+#cassetta-bordo-grigio {
 	border: 6px solid gray;
 	height: 386px;
 	width: 252px;
@@ -395,26 +408,55 @@ DISEGNO CASSETTA
 
 #cassetta-bordo-nero-lato{
 	position: relative;
+	top: 10px;
+	float: right;
+	clear: right;
+	height: 27px;
+	width: 250px;
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 24px;
+	font-size: 8px;
 	background-color: white;
-	left: 50%;
-	height: 200px;
-	width: 24px;
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
-	float: left;
+	text-decoration: none;
+	text-decoration-style: none;
 }
 
 #cassetta-bordo-grigio-lato{
-	font-size: 20px;
+	font-size: 14px;
+	color: black;
 	background-color: white;
-	border: 3px solid gray;
-	height: 196px;
-	width: 24px;
-	border: 5px 5px 5px 1px solid gray;
-	writing-mode: vertical-rl;
-	position: relative;
+	height: 27px;
+	width: 242px;
+	border-left: 4px solid gray;
+	border-right: 4px solid gray;
+	border-top: 4px solid gray;
+	border-bottom: 4px solid gray;
+	text-align: center;
 	vertical-align: middle;
-	line-height: 20px; 
+	line-height: 19px; 
+}
+
+#posizione1{
+	position: relative;
+	right: 10px;
+}
+
+#posizione2{
+	position: relative;
+	right: 50px;
+}
+
+#posizione3{
+	position: relative;
+	right: 25px;
+}
+
+#posizione4{
+	position: relative;
+	right: 35px;
 }
 
 #link-sito{
