@@ -11,6 +11,7 @@ html, body { height: 100%; margin: 0; padding: 0; }
 	margin: 0;
 }
 
+
 /*/////////////////////////////////////
 
 VIDEO HOME PAGE
@@ -88,7 +89,8 @@ VIDEO HOME PAGE
 		position: relative;
 		float: left;
 		width: 50px;
-		height: 150px;
+		left: 15px;
+		
 	}
 
 	.socials-position{
@@ -101,7 +103,7 @@ VIDEO HOME PAGE
 	position: relative;	
 	width: 50px;
 	height: 50px;
-	margin: 0px 5px 0px 0px;
+	
 	border-radius: 10px;
 	opacity: 0.75;
 	}	
@@ -110,7 +112,7 @@ VIDEO HOME PAGE
 	position: relative;
 	width: 50px;
 	height: 50px;
-	margin: 0px 5px 0px 5px;
+	
 	border-radius: 10px;
 	opacity: 0.75;
 	}
@@ -119,7 +121,7 @@ VIDEO HOME PAGE
 	position: relative;	
 	width: 50px;
 	height: 50px;
-	margin: 0px 5px 0px 5px;
+	
 	border-radius: 10px;
 	opacity: 0.75;
 	}	
@@ -195,14 +197,13 @@ NAVBAR
 	background-color: black; opacity: 0.75;
 	margin: 0;
 	border-radius: 0;
-	border-color:transparent;
-	
+	border-color:transparent;	
 	}
 
 
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	padding: 15px;	
+	padding: 0px;	
 }
 
 .nav {
@@ -426,9 +427,6 @@ DISEGNO CASSETTA
 }
 
 #cassetta-bordo-nero-lato{
-	position: relative;
-	float: right;
-	clear: right;
 	height: 27px;
 	width: 150px;
 	border-left: 4px solid red;
@@ -440,6 +438,7 @@ DISEGNO CASSETTA
 	background-color: white;
 	text-decoration: none;
 	text-decoration-style: none;
+	margin-bottom: 2px;;
 }
 
 
@@ -459,30 +458,34 @@ DISEGNO CASSETTA
 }
 
 #posizione1{
-	position: relative;
-	top: 5px;	
+	position: absolute;
+	bottom: 90px;
+	right: 15px;		
 	}
 
 #posizione2{
-	position: relative;
-	top: 15px;
-}
+	position: absolute;
+	bottom: 60px;
+	right: 15px;		
+	}
 
 #posizione3{
-	position: relative;
-	top: 25px;
-}
+	position: absolute;
+	bottom: 30px;
+	right: 15px;		
+	}
 
 #posizione4{
-	position: relative;
-	top: 35px;
-}
+	position: absolute;
+	bottom: 0px;
+	right: 15px;	
+	}
 
 #posizione-laterale{
 	position: absolute;
-	top: 125px;
-	right: 135px;	
-	transform: rotate(-70deg);	
+	top: 115px;
+	right: 115px;	
+	transform: rotate(-60deg);	
 	}
 
 #link-sito{
