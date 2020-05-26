@@ -198,7 +198,7 @@ NAVBAR
 	margin: 0;
 	border-radius: 0;
 	border-color:transparent;
-	padding: 0px;	
+	
 	}
 
 
@@ -409,8 +409,9 @@ DISEGNO CASSETTA
 #cassetta-bordo-nero-lato{
 	position: relative;
 	float: right;
+	clear: right;
 	height: 27px;
-	width: 250px;
+	width: 150px;
 	border-left: 4px solid red;
 	border-right: 4px solid red;
 	text-align: center;
@@ -422,12 +423,13 @@ DISEGNO CASSETTA
 	text-decoration-style: none;
 }
 
+
 #cassetta-bordo-grigio-lato{
 	font-size: 14px;
 	color: black;
 	background-color: white;
 	height: 27px;
-	width: 242px;
+	width: 142px;
 	border-left: 4px solid gray;
 	border-right: 4px solid gray;
 	border-top: 4px solid gray;
@@ -438,10 +440,11 @@ DISEGNO CASSETTA
 }
 
 #posizione1{
-	position: relative;
-	right: 5px;
-	top: 15px;
-}
+	position: absolute;
+	top: 125px;
+	right: -30px;
+	transform: rotate(75deg);	
+	}
 
 #posizione2{
 	position: relative;
