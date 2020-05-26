@@ -89,8 +89,8 @@ VIDEO HOME PAGE
 		float: left;
 		top: 10px;
 		left: 10px;
-		width: 200px;
-		height: 50px;
+		width: 50px;
+		height: 150px;
 	}
 
 	.socials-position{
@@ -205,7 +205,7 @@ NAVBAR
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	padding: 0px;
-	height: 130px;	
+	height: 180px;	
 }
 
 .nav {
@@ -408,13 +408,11 @@ DISEGNO CASSETTA
 
 #cassetta-bordo-nero-lato{
 	position: relative;
-	top: 10px;
 	float: right;
-	clear: right;
 	height: 27px;
 	width: 250px;
-	border-left: 4px solid black;
-	border-right: 4px solid black;
+	border-left: 4px solid red;
+	border-right: 4px solid red;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 24px;
@@ -441,22 +439,26 @@ DISEGNO CASSETTA
 
 #posizione1{
 	position: relative;
-	right: 10px;
+	right: 5px;
+	top: 15px;
 }
 
 #posizione2{
 	position: relative;
-	right: 50px;
+	right: 40px;
+	top: 30px;
 }
 
 #posizione3{
 	position: relative;
-	right: 25px;
+	right: 15px;
+	top: 45px;
 }
 
 #posizione4{
 	position: relative;
-	right: 35px;
+	right: 25px;
+	top: 60px;
 }
 
 #link-sito{
