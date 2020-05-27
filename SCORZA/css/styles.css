@@ -86,10 +86,11 @@ VIDEO HOME PAGE
 @media (max-width: 767px){
 
 	#socials-navbar{
-		position: relative;
+		position: absolute;
 		float: left;
 		width: 50px;
 		left: 15px;
+		bottom: 5px;
 		
 	}
 
@@ -203,7 +204,8 @@ NAVBAR
 
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	padding: 0px;	
+	padding: 0px;
+	height: 160px;
 }
 
 .nav {
@@ -358,7 +360,7 @@ background-size: cover;
 
 #contenitore-TITOLO-cassetta{
 	position: relative;
-	top: 55px;
+	top: 57px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 250px;
@@ -427,66 +429,66 @@ DISEGNO CASSETTA
 }
 
 #cassetta-bordo-nero-lato{
-	height: 27px;
+	height: 35px;
 	width: 150px;
-	border-left: 4px solid red;
-	border-right: 4px solid red;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 24px;
-	font-size: 8px;
-	background-color: white;
-	text-decoration: none;
-	text-decoration-style: none;
-	margin-bottom: 2px;;
+	border-left: 5px solid red;
+	border-right: 5px solid red;
+	background-color: transparent;
 }
 
 
 #cassetta-bordo-grigio-lato{
-	font-size: 14px;
-	color: black;
-	background-color: white;
-	height: 27px;
-	width: 142px;
+	font-size: 18px;
+	color: white; opacity: 0.75;
+	background-color: transparent;
+	height: 35px;
+	width: 140px;
 	border-left: 4px solid gray;
 	border-right: 4px solid gray;
 	border-top: 4px solid gray;
 	border-bottom: 4px solid gray;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 19px; 
+	line-height: 27px; 
 }
 
 #posizione1{
 	position: absolute;
-	bottom: 90px;
-	right: 15px;		
+	bottom: 121px;
+	right: 25px;		
 	}
 
 #posizione2{
 	position: absolute;
-	bottom: 60px;
-	right: 15px;		
+	bottom: 81px;
+	right: 25px;		
 	}
 
 #posizione3{
 	position: absolute;
-	bottom: 30px;
-	right: 15px;		
+	bottom: 41px;
+	right: 25px;	
 	}
 
 #posizione4{
 	position: absolute;
-	bottom: 0px;
-	right: 15px;	
+	bottom: 2px;
+	right: 25px;
 	}
 
 #posizione-laterale{
 	position: absolute;
-	top: 115px;
-	right: 115px;	
+	bottom: 60px;
+	right: 145px;	
 	transform: rotate(-60deg);	
 	}
+
+	#posizione-laterale2{
+		position: absolute;
+		bottom: 50px;
+		right: 220px;	
+		transform: rotate(-40deg);	
+		}
 
 #link-sito{
 	color: black;
