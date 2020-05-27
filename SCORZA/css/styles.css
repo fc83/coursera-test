@@ -11,6 +11,13 @@ html, body { height: 100%; margin: 0; padding: 0; }
 	margin: 0;
 }
 
+.spotify-embed{
+position: relative;
+float: left;
+clear: left;
+top: 20px;
+left: 10px;
+}
 
 /*/////////////////////////////////////
 
