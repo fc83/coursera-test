@@ -193,6 +193,10 @@ NAVBAR
 	background-color: white;
 }
 
+.navbar-toggle{
+	margin-right: 0px;
+}
+
 .navbar, .navbar-defauls, .navbar-header{
 	color: white;
 	background-color: black; opacity: 0.75;
@@ -212,6 +216,8 @@ NAVBAR
 	float: right;
 	text-align: right;
 	}
+
+
 
 #logo-scorza {
 	height: 40px;
@@ -455,40 +461,40 @@ DISEGNO CASSETTA
 #posizione1{
 	position: absolute;
 	bottom: 121px;
-	right: 25px;		
+	right: 5px;		
 	}
 
 #posizione2{
 	position: absolute;
 	bottom: 81px;
-	right: 25px;		
+	right: 5px;		
 	}
 
 #posizione3{
 	position: absolute;
 	bottom: 41px;
-	right: 25px;	
+	right: 5px;	
 	}
 
 #posizione4{
 	position: absolute;
 	bottom: 2px;
-	right: 25px;
+	right: 5px;
 	}
 
 #posizione-laterale{
 	position: absolute;
 	bottom: 60px;
-	right: 145px;	
-	transform: rotate(-60deg);	
+	right: 118px;	
+	transform: rotate(-65deg);	
 	}
 
-	#posizione-laterale2{
-		position: absolute;
-		bottom: 50px;
-		right: 220px;	
-		transform: rotate(-40deg);	
-		}
+#posizione-laterale2{
+	position: absolute;
+	bottom: 55px;
+	right: 173px;	
+	transform: rotate(-55deg);	
+	}
 
 #link-sito{
 	color: black;
