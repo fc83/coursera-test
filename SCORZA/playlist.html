@@ -19,11 +19,138 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+
+  <body id="bg-page">
+
+    <div class="main-container"> <!--MAIN CONTAINER-->
+
+      <nav class="navbar navbar-default" id="bar-list">
+          
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header" >
+          
+            <div >
+            <a  href="home.html" >
+            <img alt="Brand" src="images/logo-scorza-transparente-bianco.png" id="logo-scorza">
+            <span id="logo-SCORZA-testo">SCORZA label</span>
+            </a>
+            </div>
+          
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav  visible-sm visible-md visible-lg" >
+            <li><a href="artisti.html">Artisti</a></li>
+            <li><a href="briciole.html">Briciole live</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+
+          <section id="socials-navbar" class="visible-xs">
+
+            <a href="https://www.facebook.com/SCORZALABEL/?ref=page_internal" target="_blank" title="Facebook">
+              <img src="images/logo-facebook.png" class="logo-facebook"> 
+            </a>              
+  
+            <a href="https://www.youtube.com/channel/UCkR9VH-_uzlTso3IiuKPSrg?fbclid=IwAR2W7S_GFJgK6r0636XnlnlX2RjkkcpiLSL8B1L8Z2jkRljP9t9173fJQCc" target="_blank" title="YouTube">
+              <img src="images/logo-youtube.png" class="logo-youtube">
+            </a>             
+
+            <a href="playlist.html" target="_blank" title="Spotify">
+              <img src="images/logo-spotify.png" class="logo-spotify">
+            </a>
+
+          </section>
+                
+          <a href="artisti.html" class="visible-xs" id="posizione1">
+            <div id="cassetta-bordo-nero-lato">
+              <div id="cassetta-bordo-grigio-lato">
+                Artisti
+              </div>
+            </div>
+          </a>            
+
+          <a href="briciole.html" class="visible-xs" id="posizione2">
+            <div id="cassetta-bordo-nero-lato">
+              <div id="cassetta-bordo-grigio-lato">
+                Briciole live
+              </div>
+            </div>
+          </a>            
+
+          <a href="team.html" class="visible-xs" id="posizione3">
+            <div id="cassetta-bordo-nero-lato">
+              <div id="cassetta-bordo-grigio-lato">
+                Team
+              </div>
+            </div>
+          </a>            
+
+          <a href="contatti.html" class="visible-xs" id="posizione4">
+            <div id="cassetta-bordo-nero-lato">
+              <div id="cassetta-bordo-grigio-lato">
+                Contatti
+              </div>
+            </div>
+          </a>
+
+          <a href="contatti.html" class="visible-xs" id="posizione-laterale3">
+            <div id="cassetta-bordo-nero-lato">
+              <div id="cassetta-bordo-grigio-lato">
+                PLAYLIST
+              </div>
+            </div>
+          </a> 
+
+        </div><!-- /.navbar-collapse -->
+        
+      </nav>
     
-   
-    <iframe src="https://open.spotify.com/embed/playlist/1ESmI8742ElMPduNpRHDf0?autoplay=1" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media; autoplay"></iframe>
-         
+      <main class="content" class="text-center" > 
+
+        <br>
+
+        <div id="cotenitore-TITOLO-PAGE">
+          <div id="TITOLO-PAGE">PLAYLIST</div>
+        </div>
+
+        <br>
+
+        <iframe src="https://open.spotify.com/embed?uri=spotify%3Aplaylist%3A1ESmI8742ElMPduNpRHDf0" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> 
+                
+      </main>
+
+      <footer>
+
+        <div class="row">
+          <section class="col-xs-6">
+           <a href="contatti.html" id="footer-text"><span id="footer-text">CONTATTI</span></a>
+          </section>
+
+          <section class="col-xs-6">
+            <a href="credits.html" ><span id="footer-text">CREDITS</span></a>
+          </section>
+
+        </div>
+
+        <div id="footer-text">2020 &copy; Copyright.</div>
+        <div id="footer-text">ALL RIGHT RESERVED SCORZA LABEL</div>
+
+      </footer>
+
+    </div> <!--MAIN CONTAINER-->
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -31,22 +158,6 @@
     <script src="js/ajax-utils.js"></script>
     <script src="js/script.js"></script>
 
-    <script>
-      // Get the video
-      var video = document.getElementById("myVideo");
-      var video2 = document.getElementById("myVideoVerticale");      
-      // Get the button
-      var btn = document.getElementById("myBtn");
-      
-      // Pause and play the video, and change the button text
-      function myFunction() {
-        video.play()
-        video2.play()
-      }
-
-      var AudioVideo = new Audio ();
-      AudioVideo.src = "images/Video-audio-mix.mp3";
-
-      </script>
   </body>
+
 </html>
