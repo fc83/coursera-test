@@ -660,60 +660,11 @@ BRICIOLE
 	padding-top: 57.31%; /* 1:1 Aspect Ratio */
   }
 
-  /*/////////////////////////////////////
+/*/////////////////////////////////////
 
-FLIP
+CARD
 
 ////////////////////////////////////*/
-
-.team-cassetta{
-	vertical-align: middle;
-	line-height: 400px; 
-}
-
-  .flip-box {
-	background-color: transparent;
-	height: 394px;
-	width: 256px;
-	border: 1px solid transparent;
-	perspective: 1000px;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-  }
-  
-  .flip-box-inner {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	transition: transform 0.8s;
-	transform-style: preserve-3d;
-  }
-  
-  .flip-box:hover .flip-box-inner {
-	transform: rotateY(180deg);
-  }
-  
-  .flip-box-front, .flip-box-back {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	-webkit-backface-visibility: hidden; /* Safari */
-	backface-visibility: hidden;
-  }
-  
-  .flip-box-front {
-	background-color: white;
-	color: black;
-  }
-  
-  .flip-box-back {
-	background-color: white;
-	color: white;
-	transform: rotateY(180deg);
-  }
-
 
   .card {
 	/* Add shadows to create the "card" effect */
