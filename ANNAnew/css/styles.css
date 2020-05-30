@@ -84,7 +84,7 @@ font-size: 30px;
 	font-weight: none;
 	}
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
 		#bar-list a {
 		color: black;
 		background-color: white;
@@ -98,14 +98,10 @@ font-size: 30px;
 		top: 10px;
 		}
 
-		section.socials-position{
-			width: 0px;
-			position: relative;
-			left: -1000px;
-			}
-
+		.socials-position {
+			display: none;
 		}
-
+	}
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
@@ -148,12 +144,12 @@ height: 300px;
 PIANOFORTE
 
 ////////////////////////////////////*/
-#PLAYTHEPIANO{
-writing-mode: vertical-rl;
+#PLAYTHEPIANO {
 position: absolute;
 height: 200px;
 bottom: 75px;
 right: 200px;
+writing-mode: vertical-rl;
 }
 
 #tasto-nero-corto a{
@@ -333,35 +329,34 @@ HOME PAGE
 
 ////////////////////////////////////*/
 
-.socials-position{
+.socials-position {
 	position: relative;
-	float: right;
+	float: left;
 	width: 50px;
 	}
 
-.logo-facebook, .logo-facebook>div{
+.logo-facebook {
 	position: relative;
-	width: 25px;
-	height: 25px;
+	width: 50px;
+	height: 50px;
 	margin: 0px 5px 0px 5px;
-	border-radius: 30px;
-	padding
-		}
+	border-radius: 10px;
+	}
 
 .logo-instagram {
 	position: relative;
-	width: 25px;
-	height: 25px;
+	width: 50px;
+	height: 50px;
 	margin: 0px 5px 0px 5px;
-	border-radius: 5px;
+	border-radius: 10px;
 	}
 
 .logo-spotify {
 	position: relative;
-	width: 25px;
-	height: 25px;
+	width: 50px;
+	height: 50px;
 	margin: 0px 5px 0px 5px;
-	border-radius: 30px;
+	border-radius: 10px;
 	}
 /*/////////////////////////////////////
 
