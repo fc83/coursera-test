@@ -113,7 +113,7 @@ VIDEO HOME PAGE
 	float: left;
 	top: 10px;
 	left: 10px;
-	width: 200px;
+	width: 165px;
 	height: 50px;
 }
 
@@ -137,8 +137,7 @@ VIDEO HOME PAGE
 .logo-facebook {
 	position: relative;	
 	width: 50px;
-	height: 50px;
-	
+	height: 50px;	
 	border-radius: 10px;
 	opacity: 0.75;
 	}	
@@ -146,8 +145,7 @@ VIDEO HOME PAGE
 .logo-youtube {
 	position: relative;
 	width: 50px;
-	height: 50px;
-	
+	height: 50px;	
 	border-radius: 10px;
 	opacity: 0.75;
 	}
@@ -155,8 +153,7 @@ VIDEO HOME PAGE
 .logo-spotify {
 	position: relative;	
 	width: 50px;
-	height: 50px;
-	
+	height: 50px;	
 	border-radius: 10px;
 	opacity: 0.75;
 	}	
