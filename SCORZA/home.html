@@ -20,7 +20,7 @@
     <![endif]-->
   </head>
 
-  <body id="bg-page">
+  <body>
 
     <div class="main-container"> <!--MAIN CONTAINER-->  
 
@@ -129,17 +129,21 @@
 
         </div>
 
-        <video id="myVideo" autoplay muted loop playsinline>
+        
+        <audio controls playsinline loop id="audio-controls">
+          <source src="images/Audio-home.mp3">
+        </audio>
+      
+
+        <video autoplay muted loop id="myVideo">
           <source src="images/Video1loop.mp4" type="video/mp4">
         </video>
 
-        <video id="myVideoVerticale" autoplay muted loop playsinline>
+        <video autoplay muted loop id="myVideoVerticale">
           <source src="images/Video1loop-verticale.mp4" type="video/mp4">
-        </video>  
+        </video>         
 
-        <audio controls autoplay loop id="audio-controls">
-          <source src="images/Audio-home.mp3">
-        </audio>
+        
 
       </main>
 

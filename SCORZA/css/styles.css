@@ -55,14 +55,14 @@ VIDEO HOME PAGE
 #myVideo{
 	position: fixed; 
 	z-index: -1;
-	top: 0;
+	bottom: 0;
 	left: 0;
-  }
+	}
 
   #myVideoVerticale{
 	position: fixed; 
 	z-index: -1;
-	top: 0;
+	bottom: 0;
 	left: 0;
   }
 
@@ -564,7 +564,6 @@ BRICIOLE
 	background-color: white; opacity: 0.75;
 	padding-top: 5px;
 	padding-bottom: 5px;
-
 }
 
 #TITOLO-BRICIOLA{
