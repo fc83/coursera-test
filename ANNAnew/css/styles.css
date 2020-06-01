@@ -9,19 +9,39 @@ html, body { height: 100%; margin: 0; padding: 0; }
 	margin: 0;
 }
 
-.container {
-    width: 100%;
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -60px; /*va modificato in 3 parti*/
-    padding: 0;
+.main-container {
+	min-height: 100vh; /* will cover the 100% of viewport */
+	overflow: hidden;
+	display: block;
+	position: relative;
+	padding-bottom: 60px; /* height of your footer */
+	}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	text-align: center;
+	}
+
+#footer-text{
+	color: white;
+	font-style: oblique;
+	font-size: 9px;
+	text-decoration: none;
+	vertical-align: middle;
+	line-height: 20px;
+	height: 20px;
 }
 
-.panel-footer-page, #push {
-    height: 60px; /*va modificato in 3 parti*/
+div a:hover{
+	text-decoration: none;
 }
-
 
 #page-home{
 width: 100%; height: 100%; top: 0; left: 0;
@@ -282,47 +302,6 @@ writing-mode: vertical-rl;
 	top: 2px;
 	}
 
-
-/*/////////////////////////////////////
-
-FOOTER 
-
-////////////////////////////////////*/
-
-
-.panel-footer-home{
-	width: 100%; bottom: 0; left: 0;
-	background-color: transparent; /*bianco #ffffff*/
-	border-color: transparent;
-	font-weight: bold;
-	font-style: oblique;
-	font-size: 8px;
-	text-align: center;
-	position: fixed;
-}
-
-.panel-footer-home a:hover{
-	text-decoration: none;
-}
-
-.panel-footer-page{
-	background-color: black; /*bianco #ffffff*/ 
-	border-color: black;
-	font-weight: bold;
-	font-style: oblique;
-	font-size: 8px;
-	text-decoration: none;
-	text-align: center;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	}
-
-.panel-footer-page a:hover{
-	text-decoration: none;
-}
-
 /*/////////////////////////////////////
 
 HOME PAGE
@@ -434,7 +413,7 @@ POST-IT EP
 #POST-IT-text{
 	margin-left: auto;
   	margin-right: auto;
-	width: 60%;
+	width: 80%;
 	}
 
 .IMGcenter{
