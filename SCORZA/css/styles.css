@@ -277,18 +277,24 @@ NAVBAR
 
 #logo-scorza-index {
 	height: 50px;
-	margin: 0px 5px 0px 5px;
+	position: relative;
+	top: 20px;
+	left: 20px;
 	}
 
 #scritta-home-index {
 	font-family: arial;
 	font-weight: bold;
-	font-size: 30px;
-	text-decoration: none;
+	font-size: 10px;
 	color: black; opacity: 0.75;
-	position: relative;
-	float: left;
 	padding: 20px;
+	position: relative;
+	left: 25px;
+	
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 #logo-scorza {
@@ -330,7 +336,7 @@ NAVBAR
     width: 100%;
     min-height: 100%;
     height: auto !important;
-    margin-bottom: 0 auto -60px; /*va modificato in 3 parti*/
+    margin-bottom: 0 auto -60px; /*va modificato nel footer*/
     padding: 0;
     margin: 0;
 
