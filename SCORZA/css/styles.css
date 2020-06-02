@@ -504,6 +504,13 @@ DISEGNO CASSETTA
 	position: absolute;
 	bottom: 60px;
 	right: 120px;	
+	transform: rotate(-65deg);	
+	}
+
+#posizione-laterale2{
+	position: absolute;
+	bottom: 60px;
+	right: 120px;	
 	transform: rotate(-75deg);	
 	}
 
