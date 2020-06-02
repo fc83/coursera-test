@@ -271,9 +271,8 @@ NAVBAR
 #logo-SCORZA-testo-index {
 	font-family: arial;
 	font-weight: bold;
-	font-size: 40px;	
-	color: black; opacity: 0.75;
-	padding-left: 20px;
+	font-size: 30px;	
+	color: white;
 }
 
 #logo-scorza-index {
@@ -284,9 +283,12 @@ NAVBAR
 #scritta-home-index {
 	font-family: arial;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 30px;
 	text-decoration: none;
-	color: white;
+	color: black; opacity: 0.75;
+	position: relative;
+	float: left;
+	padding: 20px;
 }
 
 #logo-scorza {
