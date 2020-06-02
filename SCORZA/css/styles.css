@@ -77,10 +77,8 @@ INDEX
 	font-weight: bold;
 	font-size: 10px;
 	color: black; opacity: 0.75;
-	writing-mode: vertical-rl;
-	transform: rotate(180deg);	
 	position: relative;
-	float: left;
+	left: 25px;
 	}
 
 .content-index {
