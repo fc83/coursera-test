@@ -164,6 +164,22 @@ VIDEO HOME PAGE
 	height: 50px;	
 	border-radius: 10px;
 	opacity: 0.75;
+	}
+	
+.logo-telefono {
+	position: relative;	
+	width: 50px;
+	height: 50px;	
+	border-radius: 10px;
+	opacity: 0.75;
+	}
+
+.logo-wa {
+	position: relative;	
+	width: 50px;
+	height: 50px;	
+	border-radius: 10px;
+	opacity: 0.75;
 	}	
 
 
@@ -173,7 +189,7 @@ VIDEO HOME PAGE
 	background-size: cover;
 	}
 
-.contentVIDEO {
+.content-index {
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -252,7 +268,26 @@ NAVBAR
 	text-align: right;
 	}
 
+#logo-SCORZA-testo-index {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 40px;	
+	color: black; opacity: 0.75;
+	padding-left: 20px;
+}
 
+#logo-scorza-index {
+	height: 50px;
+	margin: 0px 5px 0px 5px;
+	}
+
+#scritta-home-index {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
 
 #logo-scorza {
 	height: 40px;
@@ -263,11 +298,6 @@ NAVBAR
 	position: relative;
 	float: left;
 	}
-
-	#logo-scorza-index{
-		height: 50px;
-		margin: 0px 5px 0px 5px;
-		}
 
 #logo-SCORZA-testo{
 	font-family: arial;
@@ -281,16 +311,6 @@ NAVBAR
 	position: relative;
 	float: left;
 }
-
-#logo-SCORZA-testo-index{
-	font-family: arial;
-	font-weight: bold;
-	font-size: 20px;
-	text-decoration: none;
-	color: white;
-	width: 150px;
-}
-
 
 #logo-SCORZA-testo span:hover{
 	text-decoration: none;
