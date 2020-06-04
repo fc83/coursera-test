@@ -62,23 +62,8 @@ INDEX
 	background-size: cover;
 }
 
-.logo-scorza-index-position {
-	position: relative;
-	width: 200px;
-	padding: 20px;
-	}
-
 #logo-scorza-index {
 	height: 50px;	
-	}
-
-#scritta-home-index {
-	font-family: arial;
-	font-weight: bold;
-	font-size: 10px;
-	color: black; opacity: 0.75;
-	position: relative;
-	left: 25px;
 	}
 
 .content-index {
