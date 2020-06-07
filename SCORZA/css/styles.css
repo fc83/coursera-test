@@ -62,9 +62,13 @@ INDEX
 	background-size: cover;
 }
 
-#logo-scorza-index {
+.logo-scorza-index{
+	position: relative;	
+	width: auto;
 	height: 50px;	
-	}
+	border-radius: 10px;
+
+}
 
 .content-index {
 	position: fixed;
@@ -173,14 +177,6 @@ VIDEO HOME PAGE
 		}
 
 	}
-
-.logo-scorza-index{
-	position: relative;	
-	width: auto;
-	height: 50px;	
-	border-radius: 10px;
-	opacity: 0.75;
-}
 
 .logo-facebook {
 	position: relative;	
