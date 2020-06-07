@@ -62,14 +62,6 @@ INDEX
 	background-size: cover;
 }
 
-.loghi-index{
-	position: relative;	
-	width: auto;
-	height: 50px;	
-	border-radius: 10px;
-	opacity: 0.75;
-}
-
 .content-index {
 	position: fixed;
 	bottom: 0;
@@ -88,7 +80,13 @@ INDEX
 	font-weight: bold;
 	font-size: 30px;	
 	color: white;
-	opacity: 0.75;
+}
+
+.loghi-index{
+	position: relative;	
+	width: auto;
+	height: 50px;	
+	border-radius: 10px;
 }
 
 /*/////////////////////////////////////
